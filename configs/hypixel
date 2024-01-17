@@ -73,7 +73,7 @@ AntiFrozen toggle true
 AntiFrozen bind NONE
 AntiSuffocation Mode Legit
 AntiSuffocation BreakPosition Normal
-AntiSuffocation Swing Normal
+AntiSuffocation Swing Packet
 AntiSuffocation toggle false
 AntiSuffocation bind NONE
 AntiTeams ScoreboardTeam true
@@ -164,8 +164,8 @@ Blink PulseDelay 400
 Blink toggle false
 Blink bind NONE
 BowAura Silent true
+BowAura MovementFix false
 BowAura ThroughWalls false
-BowAura Priority Direction
 BowAura toggle false
 BowAura bind NONE
 BowJump Boost 0.96
@@ -456,7 +456,7 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 12
+KillAura MaxCPS 11
 KillAura MinCPS 8
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.0
@@ -466,6 +466,7 @@ KillAura MinTurnSpeed 80.0
 KillAura Angle-Tick 1
 KillAura Reset-Delay 0
 KillAura NoInvAttack true
+KillAura WallCheck false
 KillAura StopSprint false
 KillAura MultiCombo false
 KillAura Multi-Packet 5
@@ -650,11 +651,12 @@ Regen bind NONE
 SafeWalk AirSafe false
 SafeWalk toggle false
 SafeWalk bind NONE
-Scaffold EnableTower true
+Scaffold EnableTower false
 Scaffold TowerWhen Moving
 Scaffold TowerMode Watchdog
 Scaffold TowerTimer 1.0
 Scaffold WatchdogTowerBoost true
+Scaffold Watchdog-TowerSpeed 2.12
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
 Scaffold StableMotion 0.41982
@@ -690,7 +692,7 @@ Scaffold WatchdogYaw 180
 Scaffold WatchdogPitch 84
 Scaffold Timer 1.0
 Scaffold Place-SlowDown false
-Scaffold Speed-Multiplier 0.8
+Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown true
 Scaffold XZ-Multiplier 0.82
 Scaffold NoSpeedPot false
@@ -700,6 +702,7 @@ Scaffold CustomMoveSpeed 0.2
 Scaffold Down false
 Scaffold NoHitCheck false
 Scaffold AutoJump false
+Scaffold NormalJump true
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
@@ -807,6 +810,7 @@ TPAura MaxTarget 1
 TPAura Range 30
 TPAura FOV 180.0
 TPAura Swing Normal
+TPAura Rotations true
 TPAura AutoBlock true
 TPAura toggle false
 TPAura bind NONE
