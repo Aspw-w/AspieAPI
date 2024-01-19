@@ -158,8 +158,8 @@ AutoTool bind NONE
 BackTrack MaxCachedPositions 10
 BackTrack toggle false
 BackTrack bind NONE
-BetterView CustomStrafing true
-BetterView KillAura-JumpStop false
+BetterView CustomStrafing false
+BetterView KillAura-JumpStop true
 BetterView toggle true
 BetterView bind NONE
 Blink Pulse true
@@ -855,7 +855,7 @@ VisualAbilities Boss-Health false
 VisualAbilities toggle true
 VisualAbilities bind NONE
 WTap Mode FullPacket
-WTap toggle true
+WTap toggle false
 WTap bind NONE
 WorldTime Time Static
 WorldTime CycleSpeed 30

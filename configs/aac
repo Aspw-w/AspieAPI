@@ -158,7 +158,7 @@ AutoTool bind NONE
 BackTrack MaxCachedPositions 10
 BackTrack toggle false
 BackTrack bind NONE
-BetterView CustomStrafing true
+BetterView CustomStrafing false
 BetterView KillAura-JumpStop false
 BetterView toggle true
 BetterView bind NONE
@@ -467,7 +467,7 @@ KillAura MinTurnSpeed 100.0
 KillAura Angle-Tick 1
 KillAura Reset-Delay 0
 KillAura NoInvAttack false
-KillAura WallCheck false
+KillAura WallCheck true
 KillAura StopSprint false
 KillAura MultiCombo false
 KillAura Multi-Packet 5

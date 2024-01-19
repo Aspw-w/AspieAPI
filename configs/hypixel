@@ -680,7 +680,7 @@ Scaffold TeleportNoMotion false
 Scaffold Mode Normal
 Scaffold SprintMode Same
 Scaffold Place-Condition Always
-Scaffold RotationMode Normal
+Scaffold RotationMode Watchdog
 Scaffold RotationUpMode Normal
 Scaffold StaticPitch 82.0
 Scaffold Custom-Yaw 135.0
@@ -693,7 +693,7 @@ Scaffold Swing Packet
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 50
 Scaffold MinDelay 50
-Scaffold ExtraClicks true
+Scaffold ExtraClicks false
 Scaffold ExtraClick-MaxCPS 7
 Scaffold ExtraClick-MinCPS 3
 Scaffold WatchdogYaw 180
@@ -702,7 +702,7 @@ Scaffold Timer 1.0
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown true
-Scaffold XZ-Multiplier 0.82
+Scaffold XZ-Multiplier 0.9
 Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.9
 Scaffold CustomSpeed false
@@ -749,7 +749,7 @@ Speed UseTimer true
 Speed SmoothStrafe true
 Speed StrSpeed 0.42
 Speed MotionY 0.42
-Speed SemiStrafe true
+Speed SemiStrafe false
 Speed CustomSpeed 1.0
 Speed CustomLaunchSpeed 1.6
 Speed CustomAddYMotion 0.0

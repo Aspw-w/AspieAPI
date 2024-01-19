@@ -158,8 +158,8 @@ AutoTool bind NONE
 BackTrack MaxCachedPositions 10
 BackTrack toggle false
 BackTrack bind NONE
-BetterView CustomStrafing true
-BetterView KillAura-JumpStop false
+BetterView CustomStrafing false
+BetterView KillAura-JumpStop true
 BetterView toggle true
 BetterView bind NONE
 Blink Pulse true
@@ -353,7 +353,7 @@ FastBow bind NONE
 FastBridge Mode Ninja
 FastBridge Place-Speed 6
 FastBridge toggle false
-FastBridge bind G
+FastBridge bind NONE
 FastEat Mode NCP
 FastEat CustomDelay 0
 FastEat CustomSpeed 2
@@ -497,7 +497,7 @@ LegitScaffold PlaceDelay 0
 LegitScaffold MaxTurnSpeed 80.0
 LegitScaffold MinTurnSpeed 40.0
 LegitScaffold toggle false
-LegitScaffold bind NONE
+LegitScaffold bind G
 LiquidInteract toggle false
 LiquidInteract bind NONE
 LongJump Mode NCP
