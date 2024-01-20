@@ -7,7 +7,7 @@ AimAssist OnClick false
 AimAssist Jitter false
 AimAssist toggle false
 AimAssist bind NONE
-Animals toggle true
+Animals toggle false
 Animals bind NONE
 Annoy YawMove Spin
 Annoy PitchMode Down
@@ -457,8 +457,8 @@ KeepSprint toggle true
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 20
-KillAura MinCPS 18
+KillAura MaxCPS 14
+KillAura MinCPS 9
 KillAura Target-Range 5.3
 KillAura Attack-Range 5.3
 KillAura RotationMode Standard
@@ -478,7 +478,7 @@ KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
-KillAura AutoBlock Verus
+KillAura AutoBlock ReBlock
 KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock false
 KillAura SilentRotation true
@@ -568,7 +568,7 @@ Manager SortSlot-8 Block
 Manager SortSlot-9 Potion
 Manager toggle false
 Manager bind J
-Mobs toggle true
+Mobs toggle false
 Mobs bind NONE
 MurderDetector ShowText true
 MurderDetector Chat true

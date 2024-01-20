@@ -566,7 +566,7 @@ Manager SortSlot-6 None
 Manager SortSlot-7 Bow
 Manager SortSlot-8 Block
 Manager SortSlot-9 Potion
-Manager toggle true
+Manager toggle false
 Manager bind J
 Mobs toggle false
 Mobs bind NONE
@@ -800,7 +800,7 @@ Stealer AutoCloseMaxDelay 90
 Stealer AutoCloseMinDelay 65
 Stealer CloseOnFull true
 Stealer ChestTitle false
-Stealer toggle true
+Stealer toggle false
 Stealer bind J
 Step Mode Vanilla
 Step Height 1.5

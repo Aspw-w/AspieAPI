@@ -86,7 +86,7 @@ AntiTeams bind NONE
 AntiVelocity Mode GrimReverse
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
-AntiVelocity Explosion-Mode Cancel
+AntiVelocity Explosion-Mode None
 AntiVelocity AAC5.2.0-Attack-Only true
 AntiVelocity Chance 100.0
 AntiVelocity ReverseStrength 1.0
