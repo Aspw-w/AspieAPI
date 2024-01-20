@@ -746,7 +746,6 @@ Speed Verus-Mode Hop
 Speed Vulcan-Mode YPort
 Speed Matrix-Mode Hop
 Speed UseTimer false
-Speed SmoothStrafe true
 Speed StrSpeed 0.47
 Speed MotionY 0.42
 Speed SemiStrafe true

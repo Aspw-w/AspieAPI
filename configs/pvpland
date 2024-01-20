@@ -479,7 +479,7 @@ KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
 KillAura AutoBlock ReBlock
-KillAura ReBlock-Delay 10
+KillAura ReBlock-Delay 25
 KillAura InteractAutoBlock false
 KillAura SilentRotation true
 KillAura FOV 180.0
@@ -746,7 +746,6 @@ Speed Verus-Mode Hop
 Speed Vulcan-Mode YPort
 Speed Matrix-Mode Hop
 Speed UseTimer true
-Speed SmoothStrafe true
 Speed StrSpeed 0.42
 Speed MotionY 0.42
 Speed SemiStrafe true

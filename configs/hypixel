@@ -566,7 +566,7 @@ Manager SortSlot-6 None
 Manager SortSlot-7 Bow
 Manager SortSlot-8 Block
 Manager SortSlot-9 Potion
-Manager toggle false
+Manager toggle true
 Manager bind J
 Mobs toggle false
 Mobs bind NONE
@@ -678,7 +678,7 @@ Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
 Scaffold Mode Normal
-Scaffold SprintMode Same
+Scaffold SprintMode Off
 Scaffold Place-Condition Always
 Scaffold RotationMode Watchdog
 Scaffold RotationUpMode Normal
@@ -710,7 +710,7 @@ Scaffold CustomMoveSpeed 0.2
 Scaffold Down false
 Scaffold NoHitCheck false
 Scaffold AutoJump false
-Scaffold NormalJump true
+Scaffold NormalJump false
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
@@ -746,7 +746,6 @@ Speed Verus-Mode Hop
 Speed Vulcan-Mode YPort
 Speed Matrix-Mode Hop
 Speed UseTimer true
-Speed SmoothStrafe true
 Speed StrSpeed 0.42
 Speed MotionY 0.42
 Speed SemiStrafe false
@@ -801,7 +800,7 @@ Stealer AutoCloseMaxDelay 90
 Stealer AutoCloseMinDelay 65
 Stealer CloseOnFull true
 Stealer ChestTitle false
-Stealer toggle false
+Stealer toggle true
 Stealer bind J
 Step Mode Vanilla
 Step Height 1.5
