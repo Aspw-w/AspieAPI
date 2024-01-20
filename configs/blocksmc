@@ -491,6 +491,7 @@ KillAura Circle false
 KillAura toggle false
 KillAura bind E
 LegitScaffold AutoSneak true
+LegitScaffold AutoSwitch true
 LegitScaffold SafeWalk true
 LegitScaffold StopSprint true
 LegitScaffold PlaceDelay 0
@@ -645,10 +646,6 @@ Protect Cobweb true
 Protect Cactus true
 Protect toggle false
 Protect bind NONE
-Reach CombatReach 6.0
-Reach BuildReach 6.0
-Reach toggle false
-Reach bind NONE
 Regen Mode Vanilla
 Regen Health 18
 Regen Food 18
@@ -681,7 +678,6 @@ Scaffold Mode Normal
 Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode NCP
-Scaffold RotationUpMode Same
 Scaffold StaticPitch 82.0
 Scaffold Custom-Yaw 135.0
 Scaffold Custom-Pitch 86.0
@@ -690,6 +686,7 @@ Scaffold Spin-Pitch 90.0
 Scaffold KeepRotation-OnJump true
 Scaffold WaitRotationMode Normal
 Scaffold Swing Packet
+Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 50
 Scaffold MinDelay 50
@@ -698,7 +695,9 @@ Scaffold ExtraClick-MaxCPS 15
 Scaffold ExtraClick-MinCPS 11
 Scaffold WatchdogYaw 180
 Scaffold WatchdogPitch 84
-Scaffold Timer 1.0
+Scaffold StartPlaceChecks false
+Scaffold StartPlace-Delay 5
+Scaffold StartPlace-AutoSneak true
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 1.0
 Scaffold SlowDown false
@@ -709,6 +708,7 @@ Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.22
 Scaffold Down false
 Scaffold NoHitCheck true
+Scaffold AutoSneak false
 Scaffold AutoJump false
 Scaffold NormalJump false
 Scaffold SpeedKeepY true
@@ -721,17 +721,8 @@ Scaffold KeepRotation true
 Scaffold KeepRotation-Length 0
 Scaffold MaxTurnSpeed 120.94
 Scaffold MinTurnSpeed 80.16
-Scaffold Eagle false
-Scaffold EagleSilent false
-Scaffold BlocksToEagle 0
-Scaffold EagleEdgeDistance 0.2
 Scaffold OmniDirectionalExpand true
 Scaffold ExpandLength 3
-Scaffold Zitter false
-Scaffold ZitterMode Smooth
-Scaffold ZitterSpeed 0.13
-Scaffold ZitterStrength 0.072
-Scaffold ZitterDelay 100
 Scaffold toggle false
 Scaffold bind G
 SilentSneak Mode Normal
@@ -748,7 +739,6 @@ Speed Matrix-Mode Hop
 Speed UseTimer false
 Speed StrSpeed 0.47
 Speed MotionY 0.42
-Speed SemiStrafe true
 Speed CustomSpeed 1.0
 Speed CustomLaunchSpeed 1.6
 Speed CustomAddYMotion 0.0
