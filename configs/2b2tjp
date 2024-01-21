@@ -481,7 +481,6 @@ KillAura Criticals false
 KillAura AutoBlock 1.9+
 KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock false
-KillAura SilentRotation true
 KillAura FOV 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
@@ -503,11 +502,6 @@ LiquidInteract toggle false
 LiquidInteract bind NONE
 LongJump Mode NCP
 LongJump NCP-Boost 20.0
-LongJump MatrixFlag-Boost 2.0
-LongJump MatrixFlag-Height 3.0
-LongJump MatrixFlag-Silent false
-LongJump MatrixFlag-BypassMode Clip
-LongJump MatrixFlag-Debug false
 LongJump Redesky-TimerBoost false
 LongJump Redesky-TimerBoostStart 1.85
 LongJump Redesky-TimerBoostEnd 1.0
@@ -678,7 +672,6 @@ Scaffold Mode Normal
 Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
-Scaffold StaticPitch 82.0
 Scaffold Custom-Yaw 135.0
 Scaffold Custom-Pitch 86.0
 Scaffold Spin-Speed 5.0
