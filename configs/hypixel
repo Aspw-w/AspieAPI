@@ -669,7 +669,7 @@ Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
 Scaffold Mode Normal
-Scaffold SprintMode Off
+Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold Custom-Yaw 135.0
@@ -694,8 +694,8 @@ Scaffold StartPlace-AutoSneak true
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown true
-Scaffold XZ-Multiplier 0.9
-Scaffold NoSpeedPot false
+Scaffold XZ-Multiplier 0.6
+Scaffold NoSpeedPot true
 Scaffold SpeedPot-SlowDown 0.9
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
@@ -703,7 +703,7 @@ Scaffold Down false
 Scaffold NoHitCheck false
 Scaffold AutoSneak false
 Scaffold AutoJump false
-Scaffold NormalJump false
+Scaffold NormalJump true
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
