@@ -12,7 +12,6 @@ Animals bind NONE
 Annoy YawMove Spin
 Annoy PitchMode Down
 Annoy SpinSpeed 20
-Annoy SilentRotate true
 Annoy toggle false
 Annoy bind NONE
 AntiAFK Mode Random
@@ -373,6 +372,8 @@ FastMine bind NONE
 FastPlace Speed 0
 FastPlace toggle false
 FastPlace bind NONE
+FireReducer toggle false
+FireReducer bind NONE
 Flight Mode Motion
 Flight Speed 0.9
 Flight V-Speed 0.7
@@ -604,12 +605,6 @@ NoSlow Soulsand true
 NoSlow LiquidPush true
 NoSlow toggle true
 NoSlow bind NONE
-NoViewReset Mode New
-NoViewReset Confirm true
-NoViewReset ConfirmIllegalRotation true
-NoViewReset NoZero false
-NoViewReset toggle false
-NoViewReset bind NONE
 Nuker Radius 4.2
 Nuker ThroughWalls true
 Nuker Priority Distance
