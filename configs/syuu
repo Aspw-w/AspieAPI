@@ -669,11 +669,6 @@ Scaffold Mode Normal
 Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
-Scaffold Custom-Yaw 135.0
-Scaffold Custom-Pitch 86.0
-Scaffold Spin-Speed 5.0
-Scaffold Spin-Pitch 90.0
-Scaffold KeepRotation-OnJump true
 Scaffold WaitRotationMode Normal
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
@@ -682,8 +677,6 @@ Scaffold MinDelay 50
 Scaffold ExtraClicks false
 Scaffold ExtraClick-MaxCPS 7
 Scaffold ExtraClick-MinCPS 3
-Scaffold WatchdogYaw 180
-Scaffold WatchdogPitch 84
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold StartPlace-AutoSneak true
@@ -696,7 +689,6 @@ Scaffold SpeedPot-SlowDown 0.8
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold Down false
-Scaffold NoHitCheck false
 Scaffold AutoSneak false
 Scaffold AutoJump false
 Scaffold NormalJump false
