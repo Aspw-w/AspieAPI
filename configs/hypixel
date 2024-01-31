@@ -682,9 +682,9 @@ Scaffold StartPlace-Delay 5
 Scaffold StartPlace-AutoSneak true
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
-Scaffold SlowDown true
+Scaffold SlowDown false
 Scaffold XZ-Multiplier 0.6
-Scaffold NoSpeedPot true
+Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.8
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
@@ -748,7 +748,7 @@ Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent true
+Sprint Silent false
 Sprint toggle true
 Sprint bind NONE
 StaffProtection Mode BlocksMC
