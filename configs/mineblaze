@@ -679,7 +679,6 @@ Scaffold ExtraClick-MaxCPS 7
 Scaffold ExtraClick-MinCPS 3
 Scaffold StartPlaceChecks true
 Scaffold StartPlace-Delay 25
-Scaffold StartPlace-AutoSneak true
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.8
 Scaffold SlowDown false
