@@ -158,7 +158,6 @@ BackTrack MaxCachedPositions 10
 BackTrack toggle true
 BackTrack bind NONE
 BetterView CustomStrafing true
-BetterView KillAura-JumpStop false
 BetterView toggle true
 BetterView bind NONE
 Blink Pulse false
@@ -297,6 +296,7 @@ Disabler Verus-ValidPosition true
 Disabler ChestStealer true
 Disabler PlaceBlock true
 Disabler C0B true
+Disabler C0F true
 Disabler Waiting-Display Top
 Disabler PingSpoof true
 Disabler Delay 400
@@ -486,7 +486,9 @@ KillAura FOV 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
 KillAura WaterParticles true
-KillAura ESP true
+KillAura CSGO-ESP true
+KillAura Box-ESP true
+KillAura Jello-ESP true
 KillAura Circle false
 KillAura toggle false
 KillAura bind E
@@ -673,7 +675,6 @@ Scaffold Spin-Speed 5.0
 Scaffold Spin-Pitch 90.0
 Scaffold KeepRotation-OnJump true
 Scaffold WaitRotationMode Normal
-Scaffold Swing Packet
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 50
