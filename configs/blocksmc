@@ -60,8 +60,6 @@ AntiBots AlwaysInRadiusWithTicksCheck false
 AntiBots Debug false
 AntiBots toggle true
 AntiBots bind NONE
-AntiDesync toggle false
-AntiDesync bind NONE
 AntiFireBall Swing Normal
 AntiFireBall Rotation true
 AntiFireBall MaxTurnSpeed 120.0
@@ -349,10 +347,6 @@ FastBow Packets 20
 FastBow Delay 0
 FastBow toggle false
 FastBow bind NONE
-FastBridge Mode Ninja
-FastBridge Place-Speed 0
-FastBridge toggle false
-FastBridge bind NONE
 FastEat Mode NCP
 FastEat CustomDelay 0
 FastEat CustomSpeed 25
