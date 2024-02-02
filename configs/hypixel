@@ -674,7 +674,7 @@ Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown true
 Scaffold XZ-Multiplier 0.9
 Scaffold NoSpeedPot true
-Scaffold SpeedPot-SlowDown 0.9
+Scaffold SpeedPot-SlowDown 0.7
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
