@@ -659,7 +659,6 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold Mode Normal
 Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
@@ -668,9 +667,6 @@ Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 50
 Scaffold MinDelay 50
-Scaffold ExtraClicks true
-Scaffold ExtraClick-MaxCPS 7
-Scaffold ExtraClick-MinCPS 3
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
@@ -681,7 +677,6 @@ Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.9
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
-Scaffold Down false
 Scaffold AutoSneak false
 Scaffold AutoJump false
 Scaffold NormalJump false
@@ -695,8 +690,6 @@ Scaffold KeepRotation true
 Scaffold KeepRotation-Length 0
 Scaffold MaxTurnSpeed 120.0
 Scaffold MinTurnSpeed 100.0
-Scaffold OmniDirectionalExpand true
-Scaffold ExpandLength 3
 Scaffold toggle false
 Scaffold bind G
 SilentSneak Mode Normal

@@ -494,7 +494,7 @@ LegitScaffold PlaceDelay 7
 LegitScaffold MaxTurnSpeed 80.0
 LegitScaffold MinTurnSpeed 40.0
 LegitScaffold toggle false
-LegitScaffold bind G
+LegitScaffold bind NONE
 LiquidInteract toggle false
 LiquidInteract bind NONE
 LongJump Mode NCP
@@ -533,7 +533,7 @@ Manager MaxDelay 187
 Manager MinDelay 179
 Manager InvOpen true
 Manager SimulateInventory true
-Manager SimulateInventoryDelay 0
+Manager SimulateInventoryDelay 62
 Manager NoMove false
 Manager Hotbar true
 Manager RandomSlot false
@@ -541,7 +541,7 @@ Manager Sort true
 Manager ThrowGarbage true
 Manager Armor true
 Manager NoCombat false
-Manager ItemDelay 0
+Manager ItemDelay 507
 Manager OnlySwordWeapon false
 Manager NBTGoal NONE
 Manager NBTItemNotGarbage true
@@ -577,7 +577,7 @@ NoFall MotionSpeed -0.01
 NoFall Void-Check false
 NoFall toggle false
 NoFall bind NONE
-NoJumpDelay toggle false
+NoJumpDelay toggle true
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
 NoMouseIntersect toggle false
@@ -641,9 +641,9 @@ Regen bind NONE
 SafeWalk AirSafe false
 SafeWalk toggle false
 SafeWalk bind NONE
-Scaffold EnableTower false
+Scaffold EnableTower true
 Scaffold TowerWhen Always
-Scaffold TowerMode ConstantMotion
+Scaffold TowerMode Jump
 Scaffold TowerTimer 1.0
 Scaffold WatchdogTowerBoost true
 Scaffold Watchdog-TowerSpeed 1.7
@@ -659,7 +659,6 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold Mode Normal
 Scaffold SprintMode Off
 Scaffold Place-Condition Always
 Scaffold RotationMode Smooth
@@ -668,10 +667,7 @@ Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 179
 Scaffold MinDelay 179
-Scaffold ExtraClicks false
-Scaffold ExtraClick-MaxCPS 7
-Scaffold ExtraClick-MinCPS 3
-Scaffold StartPlaceChecks true
+Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 25
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.8
@@ -681,8 +677,7 @@ Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.8
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
-Scaffold Down false
-Scaffold AutoSneak false
+Scaffold AutoSneak true
 Scaffold AutoJump false
 Scaffold NormalJump false
 Scaffold SpeedKeepY true
@@ -695,10 +690,8 @@ Scaffold KeepRotation true
 Scaffold KeepRotation-Length 0
 Scaffold MaxTurnSpeed 80.0
 Scaffold MinTurnSpeed 40.0
-Scaffold OmniDirectionalExpand true
-Scaffold ExpandLength 3
 Scaffold toggle false
-Scaffold bind NONE
+Scaffold bind G
 SilentSneak Mode Normal
 SilentSneak toggle false
 SilentSneak bind NONE
