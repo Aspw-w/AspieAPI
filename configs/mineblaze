@@ -640,7 +640,7 @@ Regen bind NONE
 SafeWalk AirSafe false
 SafeWalk toggle false
 SafeWalk bind NONE
-Scaffold EnableTower true
+Scaffold EnableTower false
 Scaffold TowerWhen Always
 Scaffold TowerMode Jump
 Scaffold TowerTimer 1.0

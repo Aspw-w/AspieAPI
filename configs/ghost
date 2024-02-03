@@ -112,8 +112,8 @@ AutoAuth toggle false
 AutoAuth bind NONE
 AutoClicker Cooldown-Check false
 AutoClicker Left true
-AutoClicker Left-MaxCPS 18
-AutoClicker Left-MinCPS 12
+AutoClicker Left-MaxCPS 19
+AutoClicker Left-MinCPS 14
 AutoClicker Right false
 AutoClicker Right-MaxCPS 12
 AutoClicker Right-MinCPS 8
