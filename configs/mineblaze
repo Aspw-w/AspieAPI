@@ -443,8 +443,8 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 12
-KillAura MinCPS 8
+KillAura MaxCPS 14
+KillAura MinCPS 6
 KillAura Target-Range 3.38
 KillAura Attack-Range 3.0
 KillAura RotationMode Standard
@@ -521,9 +521,9 @@ LookTP Button Middle
 LookTP toggle false
 LookTP bind NONE
 Manager MaxDelay 187
-Manager MinDelay 179
+Manager MinDelay 148
 Manager InvOpen true
-Manager SimulateInventory true
+Manager SimulateInventory false
 Manager SimulateInventoryDelay 62
 Manager NoMove false
 Manager Hotbar true
@@ -532,7 +532,7 @@ Manager Sort true
 Manager ThrowGarbage true
 Manager Armor true
 Manager NoCombat false
-Manager ItemDelay 507
+Manager ItemDelay 703
 Manager OnlySwordWeapon false
 Manager NBTGoal NONE
 Manager NBTItemNotGarbage true
@@ -567,7 +567,7 @@ NoFall MotionSpeed -0.01
 NoFall Void-Check false
 NoFall toggle false
 NoFall bind NONE
-NoJumpDelay toggle true
+NoJumpDelay toggle false
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
 NoMouseIntersect toggle false
