@@ -564,7 +564,6 @@ Mobs toggle false
 Mobs bind NONE
 MurderDetector ShowText true
 MurderDetector Chat true
-MurderDetector Notification true
 MurderDetector toggle false
 MurderDetector bind NONE
 NoFall Type Hypixel
