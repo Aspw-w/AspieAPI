@@ -1,12 +1,3 @@
-AimAssist Range 8.8
-AimAssist TurnSpeed 68.13
-AimAssist FOV 75.12
-AimAssist Center false
-AimAssist Lock false
-AimAssist OnClick true
-AimAssist Jitter false
-AimAssist toggle true
-AimAssist bind NONE
 Animals toggle false
 Animals bind NONE
 Annoy YawMove Spin
@@ -685,8 +676,6 @@ Scaffold AirSafe false
 Scaffold AutoDisable-Speed false
 Scaffold Desync false
 Scaffold DesyncDelay 400
-Scaffold KeepRotation true
-Scaffold KeepRotation-Length 0
 Scaffold MaxTurnSpeed 120.0
 Scaffold MinTurnSpeed 80.0
 Scaffold toggle false
