@@ -470,7 +470,6 @@ KillAura LimitedMultiTargets 6
 KillAura WaterParticles true
 KillAura CSGO-ESP true
 KillAura Box-ESP true
-KillAura Jello-ESP true
 KillAura Circle false
 KillAura toggle false
 KillAura bind NONE
