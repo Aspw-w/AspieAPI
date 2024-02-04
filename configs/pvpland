@@ -464,7 +464,7 @@ KillAura Criticals false
 KillAura AutoBlock ReBlock
 KillAura ReBlock-Delay 25
 KillAura InteractAutoBlock false
-KillAura FOV 180.0
+KillAura Fov 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
 KillAura WaterParticles true
@@ -753,7 +753,7 @@ Step bind NONE
 TPAura CPS 6
 TPAura MaxTarget 1
 TPAura Range 30
-TPAura FOV 180.0
+TPAura Fov 180.0
 TPAura Swing Normal
 TPAura Rotations true
 TPAura AutoBlock true
