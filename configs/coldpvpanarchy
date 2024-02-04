@@ -362,7 +362,6 @@ FireReducer bind NONE
 Flight Mode Motion
 Flight Speed 2.7
 Flight V-Speed 1.8
-Flight Y-Motion 0.0
 Flight SpoofGround false
 Flight NCPMotion 0.04
 Flight Verus-DamageMode Instant
@@ -394,9 +393,7 @@ Flight Clip-CollisionCheck false
 Flight Clip-NoMove true
 Flight PearlActiveCheck Teleport
 Flight AAC1.9.10-Speed 0.3
-Flight AAC3.0.5-Fast false
 Flight AAC3.3.12-Motion 8.0
-Flight AAC3.3.13-Motion 8.0
 Flight NeruxVace-Ticks 6
 Flight FakeSprinting false
 Flight FakeNoMove false
