@@ -654,10 +654,10 @@ Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
-Scaffold SlowDown true
-Scaffold XZ-Multiplier 0.9
-Scaffold NoSpeedPot true
-Scaffold SpeedPot-SlowDown 0.7
+Scaffold SlowDown false
+Scaffold XZ-Multiplier 0.84615386
+Scaffold NoSpeedPot false
+Scaffold SpeedPot-SlowDown 0.8038462
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
