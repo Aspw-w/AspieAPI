@@ -756,7 +756,7 @@ TPAura Rotations true
 TPAura AutoBlock true
 TPAura toggle false
 TPAura bind NONE
-TargetStrafe Range 2.5
+TargetStrafe Range 1.5
 TargetStrafe KeyMode Jump
 TargetStrafe SafeWalk true
 TargetStrafe Behind false
