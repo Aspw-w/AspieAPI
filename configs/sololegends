@@ -247,7 +247,7 @@ Disabler Buzz-Semi false
 Disabler Vulcan-Strafe false
 Disabler Vulcan-Combat false
 Disabler AAC5 false
-Disabler PlaceChecks true
+Disabler PlaceChecks false
 Disabler AFKChecks false
 Disabler Matrix false
 Disabler Old-Matrix false
@@ -299,7 +299,7 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler Debug false
-Disabler toggle true
+Disabler toggle false
 Disabler bind NONE
 ESP Tags true
 ESP Health-Bar true
