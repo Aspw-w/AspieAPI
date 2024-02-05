@@ -323,9 +323,6 @@ ExtendedPosition ResetOnVelocity true
 ExtendedPosition ResetOnLagging true
 ExtendedPosition toggle false
 ExtendedPosition bind NONE
-FakeGhostBlock Duration 1000
-FakeGhostBlock toggle false
-FakeGhostBlock bind NONE
 FakeLag Mode All
 FakeLag MoveOnly false
 FakeLag MinDelay 170
