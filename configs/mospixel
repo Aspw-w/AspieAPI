@@ -348,7 +348,7 @@ FastLadder Timer 1.6
 FastLadder SpartanTimerBoost true
 FastLadder toggle false
 FastLadder bind NONE
-FastMine Speed 1.5
+FastMine Speed 1.4
 FastMine toggle false
 FastMine bind NONE
 FastPlace Speed 0
@@ -546,10 +546,10 @@ Manager toggle false
 Manager bind J
 Mobs toggle false
 Mobs bind NONE
-MurderDetector ShowText true
-MurderDetector Chat true
-MurderDetector toggle false
-MurderDetector bind NONE
+MurdererDetector ShowText true
+MurdererDetector Chat true
+MurdererDetector toggle false
+MurdererDetector bind NONE
 NoFall Type Hypixel
 NoFall Edit-Mode Default
 NoFall Packet-Mode Default
