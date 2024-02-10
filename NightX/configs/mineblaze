@@ -423,8 +423,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 173
-InvManager MinDelay 173
+InvManager MaxDelay 3
+InvManager MinDelay 3
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 62
@@ -435,7 +435,7 @@ InvManager Sort true
 InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
-InvManager ItemDelay 865
+InvManager ItemDelay 400
 InvManager OnlySwordWeapon false
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
@@ -669,7 +669,7 @@ Scaffold AirSafe false
 Scaffold AutoDisable-Speed true
 Scaffold Desync false
 Scaffold DesyncDelay 400
-Scaffold MaxTurnSpeed 60.576923
+Scaffold MaxTurnSpeed 57.115383
 Scaffold MinTurnSpeed 20.769232
 Scaffold toggle false
 Scaffold bind G
@@ -768,7 +768,7 @@ TickBase TimerBoost 1.5
 TickBase TimerCharged 0.45
 TickBase Range 3.5
 TickBase CooldownTick 10
-TickBase toggle false
+TickBase toggle true
 TickBase bind NONE
 Timer Speed 2.0
 Timer OnMove false

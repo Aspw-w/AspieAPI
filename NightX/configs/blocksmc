@@ -71,7 +71,7 @@ AntiTeams ArmorColor false
 AntiTeams ArmorIndex 3
 AntiTeams toggle false
 AntiTeams bind NONE
-AntiVelocity Mode YMotion
+AntiVelocity Mode Cancel
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
 AntiVelocity Explosion-Mode None
