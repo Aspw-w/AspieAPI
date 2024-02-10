@@ -71,7 +71,7 @@ AntiTeams ArmorColor false
 AntiTeams ArmorIndex 3
 AntiTeams toggle true
 AntiTeams bind NONE
-AntiVelocity Mode GrimReverse
+AntiVelocity Mode Legit
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
 AntiVelocity Explosion-Mode None
@@ -86,7 +86,7 @@ AntiVelocity LegitFace true
 AntiVelocity JumpReset-Mode Normal
 AntiVelocity AACStrafeValue false
 AntiVelocity Phase-Offset 0.05
-AntiVelocity toggle true
+AntiVelocity toggle false
 AntiVelocity bind NONE
 AntiVoid Detect-Method Collision
 AntiVoid SetBack-Mode FlyFlag
@@ -423,8 +423,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 187
-InvManager MinDelay 148
+InvManager MaxDelay 173
+InvManager MinDelay 173
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 62
@@ -435,7 +435,7 @@ InvManager Sort true
 InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
-InvManager ItemDelay 703
+InvManager ItemDelay 865
 InvManager OnlySwordWeapon false
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
@@ -468,13 +468,13 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 14
-KillAura MinCPS 6
+KillAura MaxCPS 15
+KillAura MinCPS 8
 KillAura Target-Range 3.38
 KillAura Attack-Range 3.0
 KillAura RotationMode Standard
-KillAura MaxTurnSpeed 80.0
-KillAura MinTurnSpeed 40.0
+KillAura MaxTurnSpeed 100.38461
+KillAura MinTurnSpeed 65.769226
 KillAura Angle-Tick 1
 KillAura Reset-Delay 0
 KillAura NoInvAttack true
@@ -489,7 +489,7 @@ KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
-KillAura AutoBlock Perfect
+KillAura AutoBlock Fake
 KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock true
 KillAura Fov 180.0
@@ -669,8 +669,8 @@ Scaffold AirSafe false
 Scaffold AutoDisable-Speed true
 Scaffold Desync false
 Scaffold DesyncDelay 400
-Scaffold MaxTurnSpeed 80.0
-Scaffold MinTurnSpeed 40.0
+Scaffold MaxTurnSpeed 60.576923
+Scaffold MinTurnSpeed 20.769232
 Scaffold toggle false
 Scaffold bind G
 SilentSneak Mode Normal
@@ -680,7 +680,7 @@ Speed Type Other
 Speed NCP-Mode BHop
 Speed AAC-Mode 4Hop
 Speed Watchdog-Mode Custom
-Speed Other-Mode Jump
+Speed Other-Mode Minemen
 Speed Verus-Mode Hop
 Speed Vulcan-Mode YPort
 Speed Matrix-Mode Hop
@@ -708,7 +708,7 @@ Speed WorldCheck true
 Speed NoBob false
 Speed FakeY false
 Speed toggle false
-Speed bind NONE
+Speed bind X
 Spider Mode Simple
 Spider ClipMode Jump
 Spider CheckerClimbMotion 0.0
