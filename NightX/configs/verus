@@ -99,7 +99,7 @@ AntiVoid toggle false
 AntiVoid bind NONE
 AutoAuth Double-Register false
 AutoAuth Delay 0
-AutoAuth toggle true
+AutoAuth toggle false
 AutoAuth bind NONE
 AutoClicker Cooldown-Check false
 AutoClicker Left true
@@ -248,7 +248,7 @@ Disabler Buzz-Semi false
 Disabler Vulcan-Strafe false
 Disabler Vulcan-Combat false
 Disabler AAC5 false
-Disabler PlaceChecks true
+Disabler PlaceChecks false
 Disabler AFKChecks false
 Disabler Matrix false
 Disabler Old-Matrix false
@@ -300,7 +300,7 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler Debug false
-Disabler toggle true
+Disabler toggle false
 Disabler bind NONE
 ESP Tags true
 ESP Health-Bar true
@@ -483,7 +483,7 @@ KillAura MultiCombo false
 KillAura Multi-Packet 5
 KillAura NoHitCheck false
 KillAura Priority Distance
-KillAura TargetMode Single
+KillAura TargetMode Switch
 KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
@@ -559,7 +559,7 @@ NoFall MotionSpeed -0.01
 NoFall Void-Check false
 NoFall toggle false
 NoFall bind NONE
-NoJumpDelay toggle false
+NoJumpDelay toggle true
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
 NoMouseIntersect toggle false
@@ -680,7 +680,7 @@ Speed NCP-Mode BHop
 Speed AAC-Mode 4Hop
 Speed Watchdog-Mode Custom
 Speed Other-Mode YPort
-Speed Verus-Mode Hop
+Speed Verus-Mode LowHop
 Speed Vulcan-Mode YPort
 Speed Matrix-Mode Hop
 Speed UseTimer false

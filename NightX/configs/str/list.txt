@@ -3,7 +3,6 @@ Official Configs:
 aac
 anarchy
 blocksmc
-coldpvp
 coldpvpanarchy
 default
 ghost
@@ -21,7 +20,7 @@ oncp
 purpleprison
 pvpland
 shotbow
-sololegends
 speedcubing
 syuu
+verus
 vulcan
