@@ -784,7 +784,7 @@ VisualAbilities Boss-Health false
 VisualAbilities toggle true
 VisualAbilities bind NONE
 WTap Mode FakeSneak
-WTap toggle true
+WTap toggle false
 WTap bind NONE
 WorldTime Time Static
 WorldTime CycleSpeed 30
