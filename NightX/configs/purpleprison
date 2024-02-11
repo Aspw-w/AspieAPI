@@ -169,6 +169,7 @@ BowJump RenderStatus false
 BowJump toggle false
 BowJump bind NONE
 BrandSpoofer Mode Vanilla
+BrandSpoofer Custom-Brand WTF
 BrandSpoofer toggle true
 BrandSpoofer bind NONE
 Breaker ThroughWalls Around
@@ -310,8 +311,6 @@ ESP bind NONE
 EntityJump Mode Boost
 EntityJump HBoost 2.0
 EntityJump VBoost 2.0
-EntityJump MatrixTimerStart 0.3
-EntityJump MatrixTimerAir 0.5
 EntityJump LaunchRadius 4.0
 EntityJump Delay 200
 EntityJump AutoDestroy false
@@ -646,6 +645,8 @@ Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
+Scaffold AutoJumpMode Off
+Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 50
@@ -661,8 +662,6 @@ Scaffold SpeedPot-SlowDown 0.9
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
-Scaffold AutoJump false
-Scaffold NormalJump false
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
@@ -763,13 +762,6 @@ TargetStrafe Behind false
 TargetStrafe ThirdPerson false
 TargetStrafe toggle false
 TargetStrafe bind NONE
-TickBase Ticks 10
-TickBase TimerBoost 1.5
-TickBase TimerCharged 0.45
-TickBase Range 3.5
-TickBase CooldownTick 10
-TickBase toggle false
-TickBase bind NONE
 Timer Speed 2.0
 Timer OnMove false
 Timer LagCheck false

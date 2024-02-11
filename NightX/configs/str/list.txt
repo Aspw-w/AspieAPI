@@ -20,7 +20,7 @@ norules
 oncp
 purpleprison
 pvpland
-shotbow-1.20.4
+shotbow
 sololegends
 speedcubing
 syuu

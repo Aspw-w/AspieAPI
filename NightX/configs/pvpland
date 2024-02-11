@@ -169,6 +169,7 @@ BowJump RenderStatus false
 BowJump toggle false
 BowJump bind NONE
 BrandSpoofer Mode Vanilla
+BrandSpoofer Custom-Brand WTF
 BrandSpoofer toggle true
 BrandSpoofer bind NONE
 Breaker ThroughWalls Around
@@ -310,8 +311,6 @@ ESP bind NONE
 EntityJump Mode Boost
 EntityJump HBoost 2.0
 EntityJump VBoost 2.0
-EntityJump MatrixTimerStart 0.3
-EntityJump MatrixTimerAir 0.5
 EntityJump LaunchRadius 4.0
 EntityJump Delay 200
 EntityJump AutoDestroy false
@@ -469,7 +468,7 @@ KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
 KillAura MaxCPS 20
-KillAura MinCPS 16
+KillAura MinCPS 17
 KillAura Target-Range 5.7
 KillAura Attack-Range 3.0
 KillAura RotationMode Zero
@@ -490,7 +489,7 @@ KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
 KillAura AutoBlock ReBlock
-KillAura ReBlock-Delay 25
+KillAura ReBlock-Delay 30
 KillAura InteractAutoBlock false
 KillAura Fov 180.0
 KillAura FailRate 0.0
@@ -646,6 +645,8 @@ Scaffold SprintMode Off
 Scaffold Place-Condition Always
 Scaffold RotationMode Smooth
 Scaffold WaitRotationMode Normal
+Scaffold AutoJumpMode Off
+Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 50
@@ -661,8 +662,6 @@ Scaffold SpeedPot-SlowDown 0.8
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
-Scaffold AutoJump false
-Scaffold NormalJump false
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
@@ -763,13 +762,6 @@ TargetStrafe Behind false
 TargetStrafe ThirdPerson false
 TargetStrafe toggle false
 TargetStrafe bind NONE
-TickBase Ticks 10
-TickBase TimerBoost 1.92
-TickBase TimerCharged 0.45
-TickBase Range 3.5
-TickBase CooldownTick 10
-TickBase toggle true
-TickBase bind NONE
 Timer Speed 2.0
 Timer OnMove false
 Timer LagCheck false
@@ -792,7 +784,7 @@ VisualAbilities Boss-Health false
 VisualAbilities toggle true
 VisualAbilities bind NONE
 WTap Mode FakeSneak
-WTap toggle false
+WTap toggle true
 WTap bind NONE
 WorldTime Time Static
 WorldTime CycleSpeed 30
