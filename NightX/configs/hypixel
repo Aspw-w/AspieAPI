@@ -434,7 +434,7 @@ InvManager Sort true
 InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
-InvManager ItemDelay 150
+InvManager ItemDelay 100
 InvManager OnlySwordWeapon false
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
@@ -475,9 +475,9 @@ KillAura RotationMode Standard
 KillAura MaxTurnSpeed 80.0
 KillAura MinTurnSpeed 40.0
 KillAura Angle-Tick 1
-KillAura Reset-Delay 0
+KillAura Reset-Delay 10
 KillAura NoInvAttack true
-KillAura WallCheck false
+KillAura WallCheck true
 KillAura StopSprint false
 KillAura MultiCombo false
 KillAura Multi-Packet 5
@@ -714,7 +714,7 @@ Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent false
+Sprint Silent true
 Sprint toggle true
 Sprint bind NONE
 StaffProtection Mode BlocksMC
@@ -733,8 +733,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 90
-Stealer AutoCloseMinDelay 65
+Stealer AutoCloseMaxDelay 100
+Stealer AutoCloseMinDelay 100
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false

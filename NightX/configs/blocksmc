@@ -74,7 +74,7 @@ AntiTeams bind NONE
 AntiVelocity Mode Cancel
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
-AntiVelocity Explosion-Mode None
+AntiVelocity Explosion-Mode Cancel
 AntiVelocity AAC5.2.0-Attack-Only true
 AntiVelocity Chance 100.0
 AntiVelocity ReverseStrength 0.92
@@ -248,7 +248,7 @@ Disabler Buzz-Semi false
 Disabler Vulcan-Strafe false
 Disabler Vulcan-Combat false
 Disabler AAC5 false
-Disabler PlaceChecks true
+Disabler PlaceChecks false
 Disabler AFKChecks false
 Disabler Matrix false
 Disabler Old-Matrix false
@@ -300,7 +300,7 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler Debug false
-Disabler toggle true
+Disabler toggle false
 Disabler bind NONE
 ESP Tags true
 ESP Health-Bar true
@@ -475,7 +475,7 @@ KillAura RotationMode Standard
 KillAura MaxTurnSpeed 80.16
 KillAura MinTurnSpeed 40.78
 KillAura Angle-Tick 1
-KillAura Reset-Delay 0
+KillAura Reset-Delay 10
 KillAura NoInvAttack true
 KillAura WallCheck true
 KillAura StopSprint false
@@ -641,7 +641,7 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold SprintMode Off
+Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
@@ -675,7 +675,7 @@ Scaffold bind G
 SilentSneak Mode Normal
 SilentSneak toggle false
 SilentSneak bind NONE
-Speed Type Watchdog
+Speed Type Verus
 Speed NCP-Mode BHop
 Speed AAC-Mode 4Hop
 Speed Watchdog-Mode Custom
@@ -707,14 +707,14 @@ Speed WorldCheck true
 Speed NoBob false
 Speed FakeY false
 Speed toggle false
-Speed bind NONE
+Speed bind X
 Spider Mode Jump
 Spider ClipMode Jump
 Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent false
+Sprint Silent true
 Sprint toggle true
 Sprint bind NONE
 StaffProtection Mode BlocksMC
