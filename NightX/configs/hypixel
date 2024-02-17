@@ -71,7 +71,7 @@ AntiTeams ArmorColor false
 AntiTeams ArmorIndex 3
 AntiTeams toggle true
 AntiTeams bind NONE
-AntiVelocity Mode YMotion
+AntiVelocity Mode Cancel
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
 AntiVelocity Explosion-Mode None
@@ -648,7 +648,7 @@ Scaffold WaitRotationMode Normal
 Scaffold AutoJumpMode Normal
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
-Scaffold PlaceableDelay false
+Scaffold PlaceableDelay true
 Scaffold MaxDelay 50
 Scaffold MinDelay 50
 Scaffold StartPlaceChecks false
