@@ -477,7 +477,7 @@ KillAura MinTurnSpeed 40.0
 KillAura Angle-Tick 1
 KillAura Reset-Delay 10
 KillAura NoInvAttack true
-KillAura WallCheck true
+KillAura WallCheck false
 KillAura StopSprint false
 KillAura MultiCombo false
 KillAura Multi-Packet 5
