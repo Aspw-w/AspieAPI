@@ -646,7 +646,7 @@ Scaffold Place-Condition Always
 Scaffold RotationMode Smooth
 Scaffold WaitRotationMode Normal
 Scaffold AutoJumpMode Breezily
-Scaffold Breezily-Delay 6
+Scaffold Breezily-Delay 5
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 179
