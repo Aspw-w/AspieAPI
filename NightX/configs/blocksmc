@@ -182,8 +182,6 @@ Breaker Surroundings false
 Breaker Hypixel false
 Breaker toggle false
 Breaker bind N
-ChatFilter toggle false
-ChatFilter bind NONE
 CivBreak Mode Instant
 CivBreak Instant-Delay 1
 CivBreak Range 5.0
@@ -424,7 +422,7 @@ InfiniteReach toggle false
 InfiniteReach bind NONE
 InvManager MaxDelay 7
 InvManager MinDelay 0
-InvManager InvOpen true
+InvManager InvOpen false
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
 InvManager NoMove false
@@ -454,7 +452,7 @@ InvManager SortSlot-9 Potion
 InvManager toggle false
 InvManager bind J
 InvMove Mode Vanilla
-InvMove NoDetectable true
+InvMove NoDetectable false
 InvMove toggle true
 InvMove bind NONE
 Invisible toggle false
@@ -474,7 +472,7 @@ KillAura Attack-Range 3.0
 KillAura RotationMode Standard
 KillAura MaxTurnSpeed 80.16
 KillAura MinTurnSpeed 40.78
-KillAura Angle-Tick 1
+KillAura Angle-Tick 5
 KillAura Reset-Delay 10
 KillAura NoInvAttack true
 KillAura WallCheck true
@@ -488,7 +486,7 @@ KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
-KillAura AutoBlock Fake
+KillAura AutoBlock Perfect
 KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock false
 KillAura Fov 180.0
@@ -623,7 +621,7 @@ Regen bind NONE
 SafeWalk AirSafe false
 SafeWalk toggle false
 SafeWalk bind NONE
-Scaffold EnableTower false
+Scaffold EnableTower true
 Scaffold TowerWhen Always
 Scaffold TowerMode BlocksMC
 Scaffold TowerTimer 1.0
@@ -645,7 +643,7 @@ Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
-Scaffold AutoJumpMode Off
+Scaffold AutoJumpMode KeepY
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
@@ -665,7 +663,7 @@ Scaffold AutoSneak false
 Scaffold SpeedKeepY true
 Scaffold SafeWalk true
 Scaffold AirSafe false
-Scaffold AutoDisable-Speed true
+Scaffold AutoDisable-Speed false
 Scaffold Desync false
 Scaffold DesyncDelay 400
 Scaffold MaxTurnSpeed 80.16

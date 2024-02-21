@@ -182,8 +182,6 @@ Breaker Surroundings false
 Breaker Hypixel false
 Breaker toggle false
 Breaker bind NONE
-ChatFilter toggle false
-ChatFilter bind NONE
 CivBreak Mode Instant
 CivBreak Instant-Delay 1
 CivBreak Range 5.0

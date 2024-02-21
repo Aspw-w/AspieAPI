@@ -182,8 +182,6 @@ Breaker Surroundings false
 Breaker Hypixel false
 Breaker toggle false
 Breaker bind N
-ChatFilter toggle false
-ChatFilter bind NONE
 CivBreak Mode Instant
 CivBreak Instant-Delay 1
 CivBreak Range 5.0
@@ -648,9 +646,9 @@ Scaffold WaitRotationMode Normal
 Scaffold AutoJumpMode Breezily
 Scaffold Breezily-Delay 5
 Scaffold Timer 1.0
-Scaffold PlaceableDelay false
-Scaffold MaxDelay 179
-Scaffold MinDelay 179
+Scaffold PlaceableDelay true
+Scaffold MaxDelay 50
+Scaffold MinDelay 50
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 25
 Scaffold Place-SlowDown false
