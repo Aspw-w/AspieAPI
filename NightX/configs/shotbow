@@ -150,7 +150,7 @@ BetterView CustomStrafing true
 BetterView toggle true
 BetterView bind NONE
 Blink Pulse true
-Blink C0FCancel false
+Blink C0FCancel true
 Blink PulseDelay 400
 Blink toggle false
 Blink bind NONE
@@ -297,7 +297,7 @@ Disabler StrafeDisabler true
 Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
-Disabler Debug false
+Disabler Debug true
 Disabler toggle false
 Disabler bind NONE
 ESP Tags true
@@ -641,10 +641,10 @@ Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
 Scaffold SprintMode Off
 Scaffold Place-Condition Always
-Scaffold RotationMode Normal
+Scaffold RotationMode Smooth
 Scaffold WaitRotationMode Normal
-Scaffold AutoJumpMode Off
-Scaffold Breezily-Delay 7
+Scaffold AutoJumpMode Breezily
+Scaffold Breezily-Delay 5
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
 Scaffold MaxDelay 50

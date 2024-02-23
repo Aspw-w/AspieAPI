@@ -527,7 +527,7 @@ LongJump Pearl-Boost 4.25
 LongJump Pearl-Height 0.42
 LongJump Pearl-Timer 1.0
 LongJump VerusHigh-TimerBoost false
-LongJump VerusHigh-Height 1.6
+LongJump VerusHigh-Height 10.0
 LongJump LagCheck true
 LongJump WorldCheck true
 LongJump AutoDisable false
