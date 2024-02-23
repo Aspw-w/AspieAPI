@@ -420,8 +420,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 9
-InvManager MinDelay 0
+InvManager MaxDelay 12
+InvManager MinDelay 3
 InvManager InvOpen true
 InvManager SimulateInventory true
 InvManager SimulateInventoryDelay 0
@@ -466,7 +466,7 @@ KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
 KillAura MaxCPS 16
-KillAura MinCPS 9
+KillAura MinCPS 7
 KillAura Target-Range 3.38
 KillAura Attack-Range 3.0
 KillAura RotationMode Standard
@@ -488,7 +488,7 @@ KillAura Sharpness true
 KillAura Criticals false
 KillAura AutoBlock Perfect
 KillAura ReBlock-Delay 10
-KillAura InteractAutoBlock false
+KillAura InteractAutoBlock true
 KillAura Fov 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
