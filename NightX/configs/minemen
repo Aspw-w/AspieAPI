@@ -175,7 +175,7 @@ BrandSpoofer bind NONE
 Breaker ThroughWalls Around
 Breaker Range 5.0
 Breaker Action Destroy
-Breaker Instant true
+Breaker Instant false
 Breaker Swing Packet
 Breaker Rotations true
 Breaker Surroundings false
