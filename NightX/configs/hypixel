@@ -421,7 +421,7 @@ InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
 InvManager MaxDelay 100
-InvManager MinDelay 50
+InvManager MinDelay 70
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -465,8 +465,8 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 12
-KillAura MinCPS 8
+KillAura MaxCPS 14
+KillAura MinCPS 9
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.0
 KillAura RotationMode Standard
@@ -639,7 +639,7 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold SprintMode Ground
+Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
@@ -647,8 +647,8 @@ Scaffold AutoJumpMode Normal
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
 Scaffold PlaceableDelay true
-Scaffold MaxDelay 50
-Scaffold MinDelay 50
+Scaffold MaxDelay 20
+Scaffold MinDelay 20
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
@@ -656,7 +656,7 @@ Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown false
 Scaffold XZ-Multiplier 0.84615386
 Scaffold NoSpeedPot true
-Scaffold SpeedPot-SlowDown 0.8038462
+Scaffold SpeedPot-SlowDown 0.6980769
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
@@ -720,7 +720,7 @@ StaffProtection Leave true
 StaffProtection toggle false
 StaffProtection bind NONE
 Stealer MaxDelay 100
-Stealer MinDelay 50
+Stealer MinDelay 70
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -731,8 +731,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 100
-Stealer AutoCloseMinDelay 100
+Stealer AutoCloseMaxDelay 130
+Stealer AutoCloseMinDelay 130
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
