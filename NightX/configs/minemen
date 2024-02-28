@@ -122,7 +122,7 @@ AutoHeal AutoPot true
 AutoHeal Health-Pot 50.0
 AutoHeal Heal-Pot true
 AutoHeal Utility-Pot true
-AutoHeal InvSpoof-Pot true
+AutoHeal InvSpoof-Pot false
 AutoHeal InvDelay-Pot 500
 AutoHeal Custom-Pitch-Pot false
 AutoHeal Angle-Pot 90.0
@@ -181,7 +181,7 @@ Breaker Rotations true
 Breaker Surroundings false
 Breaker Hypixel false
 Breaker toggle false
-Breaker bind N
+Breaker bind NONE
 CivBreak Mode Instant
 CivBreak Instant-Delay 1
 CivBreak Range 5.0
@@ -737,12 +737,12 @@ Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
 Stealer bind NONE
-Step Mode Vanilla
-Step Height 1.5
+Step Mode Vulcan
+Step Height 2.0
 Step JumpHeight 0.42
 Step Delay 150
 Step UseTimer true
-Step toggle false
+Step toggle true
 Step bind NONE
 TPAura CPS 6
 TPAura MaxTarget 1
