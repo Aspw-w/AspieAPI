@@ -446,8 +446,8 @@ InvManager SortSlot-8 Block
 InvManager SortSlot-9 Potion
 InvManager toggle false
 InvManager bind J
-InvMove Mode Blink
-InvMove NoDetectable false
+InvMove Mode Vanilla
+InvMove NoDetectable true
 InvMove toggle true
 InvMove bind NONE
 Invisible toggle false
@@ -483,7 +483,7 @@ KillAura Sharpness true
 KillAura Criticals false
 KillAura AutoBlock Fake
 KillAura ReBlock-Delay 10
-KillAura InteractAutoBlock true
+KillAura InteractAutoBlock false
 KillAura Fov 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
@@ -721,7 +721,7 @@ Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
 Stealer NoDuplicateNonStackable false
-Stealer Instant false
+Stealer Instant true
 Stealer StopMotion false
 Stealer AutoClose true
 Stealer SilentMode true
