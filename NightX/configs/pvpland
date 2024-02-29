@@ -309,7 +309,7 @@ EntityJump Delay 200
 EntityJump AutoDestroy false
 EntityJump toggle false
 EntityJump bind NONE
-ExtendedPosition Only-KillAura true
+ExtendedPosition Only-KillAura false
 ExtendedPosition Only-Player true
 ExtendedPosition ResetOnVelocity true
 ExtendedPosition ResetOnLagging true
