@@ -26,7 +26,7 @@ AntiBots LivingTime false
 AntiBots LivingTimeTicks 40
 AntiBots Ground false
 AntiBots Air false
-AntiBots InvalidGround false
+AntiBots InvalidGround true
 AntiBots Swing false
 AntiBots Health false
 AntiBots InvalidHealth false
@@ -44,7 +44,7 @@ AntiBots ExperimentalNPCDetection false
 AntiBots IllegalName false
 AntiBots RemoveFromWorld false
 AntiBots Remove-Interval 20
-AntiBots AlwaysInRadius true
+AntiBots AlwaysInRadius false
 AntiBots AlwaysInRadiusBlocks 20.0
 AntiBots AlwaysInRadiusRemove false
 AntiBots AlwaysInRadiusWithTicksCheck false
@@ -128,7 +128,7 @@ AutoHeal Delay-Soup 150
 AutoHeal OpenInv-Soup false
 AutoHeal SimulateInventory-Soup true
 AutoHeal Bowl-Soup Drop
-AutoHeal toggle true
+AutoHeal toggle false
 AutoHeal bind NONE
 AutoProjectile WaitForBowAimAssist true
 AutoProjectile toggle false

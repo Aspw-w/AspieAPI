@@ -309,7 +309,7 @@ EntityJump Delay 200
 EntityJump AutoDestroy false
 EntityJump toggle false
 EntityJump bind NONE
-ExtendedPosition Only-KillAura true
+ExtendedPosition Only-KillAura false
 ExtendedPosition Only-Player true
 ExtendedPosition ResetOnVelocity true
 ExtendedPosition ResetOnLagging true
@@ -418,7 +418,7 @@ InfiniteReach bind NONE
 InvManager MaxDelay 12
 InvManager MinDelay 3
 InvManager InvOpen true
-InvManager SimulateInventory true
+InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
 InvManager NoMove false
 InvManager Hotbar true
@@ -462,8 +462,8 @@ KillAura Cooldown-Check false
 KillAura Click-Only false
 KillAura MaxCPS 16
 KillAura MinCPS 7
-KillAura Target-Range 3.38
-KillAura Attack-Range 3.0
+KillAura Target-Range 3.548077
+KillAura Attack-Range 3.4038463
 KillAura RotationMode Standard
 KillAura MaxTurnSpeed 100.38461
 KillAura MinTurnSpeed 65.769226
