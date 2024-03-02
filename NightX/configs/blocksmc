@@ -634,9 +634,9 @@ Scaffold WaitRotationMode Normal
 Scaffold AutoJumpMode Off
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
-Scaffold PlaceableDelay false
-Scaffold MaxDelay 50
-Scaffold MinDelay 50
+Scaffold PlaceableDelay true
+Scaffold MaxDelay 38
+Scaffold MinDelay 28
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
@@ -649,7 +649,7 @@ Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.24
 Scaffold AutoSneak false
 Scaffold SpeedKeepY true
-Scaffold SafeWalk false
+Scaffold SafeWalk true
 Scaffold AirSafe false
 Scaffold AutoDisable-Speed false
 Scaffold Desync false

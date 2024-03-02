@@ -472,7 +472,7 @@ KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
-KillAura AutoBlock Perfect
+KillAura AutoBlock Fake
 KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock true
 KillAura Fov 180.0
@@ -715,10 +715,10 @@ Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
 Stealer NoDuplicateNonStackable false
-Stealer Instant true
+Stealer Instant false
 Stealer StopMotion false
 Stealer AutoClose true
-Stealer SilentMode true
+Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
 Stealer AutoCloseMaxDelay 0
