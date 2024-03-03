@@ -473,7 +473,7 @@ KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
 KillAura AutoBlock Fake
-KillAura ReBlock-Delay 10
+KillAura ReBlock-Delay 30
 KillAura InteractAutoBlock true
 KillAura Fov 180.0
 KillAura FailRate 0.0
@@ -627,7 +627,7 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold SprintMode Same
+Scaffold SprintMode Ground
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
@@ -641,10 +641,10 @@ Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
-Scaffold SlowDown true
+Scaffold SlowDown false
 Scaffold XZ-Multiplier 0.8990385
-Scaffold NoSpeedPot true
-Scaffold SpeedPot-SlowDown 0.8038462
+Scaffold NoSpeedPot false
+Scaffold SpeedPot-SlowDown 0.7826923
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false

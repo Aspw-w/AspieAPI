@@ -455,7 +455,7 @@ KillAura MaxCPS 12
 KillAura MinCPS 8
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.8
-KillAura RotationMode Standard
+KillAura RotationMode Zero
 KillAura MaxTurnSpeed 120.94
 KillAura MinTurnSpeed 80.16
 KillAura Angle-Tick 1
