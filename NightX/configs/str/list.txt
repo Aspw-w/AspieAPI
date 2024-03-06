@@ -21,6 +21,5 @@ purpleprison
 pvpland
 shotbow
 speedcubing
-syuu
 verus
 vulcan
