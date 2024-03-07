@@ -406,8 +406,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 67
-InvManager MinDelay 28
+InvManager MaxDelay 96
+InvManager MinDelay 48
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -709,8 +709,8 @@ StaffProtection Mode BlocksMC
 StaffProtection Leave true
 StaffProtection toggle false
 StaffProtection bind NONE
-Stealer MaxDelay 69
-Stealer MinDelay 23
+Stealer MaxDelay 80
+Stealer MinDelay 50
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -721,8 +721,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 100
-Stealer AutoCloseMinDelay 100
+Stealer AutoCloseMaxDelay 111
+Stealer AutoCloseMinDelay 111
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
