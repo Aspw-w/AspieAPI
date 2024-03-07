@@ -406,8 +406,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 3
-InvManager MinDelay 0
+InvManager MaxDelay 67
+InvManager MinDelay 28
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -451,7 +451,7 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 15
+KillAura MaxCPS 14
 KillAura MinCPS 9
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.0
@@ -709,8 +709,8 @@ StaffProtection Mode BlocksMC
 StaffProtection Leave true
 StaffProtection toggle false
 StaffProtection bind NONE
-Stealer MaxDelay 3
-Stealer MinDelay 0
+Stealer MaxDelay 69
+Stealer MinDelay 23
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -721,8 +721,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 0
-Stealer AutoCloseMinDelay 0
+Stealer AutoCloseMaxDelay 100
+Stealer AutoCloseMinDelay 100
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
