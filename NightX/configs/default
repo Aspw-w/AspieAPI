@@ -705,7 +705,7 @@ Spider bind NONE
 Sprint Silent false
 Sprint toggle false
 Sprint bind NONE
-StaffProtection Mode BlocksMC
+StaffProtection Mode Hypixel
 StaffProtection Leave true
 StaffProtection toggle false
 StaffProtection bind NONE
