@@ -705,9 +705,9 @@ Spider bind NONE
 Sprint Silent true
 Sprint toggle true
 Sprint bind NONE
-StaffProtection Mode BlocksMC
+StaffProtection Mode Hypixel
 StaffProtection Leave true
-StaffProtection toggle false
+StaffProtection toggle true
 StaffProtection bind NONE
 Stealer MaxDelay 80
 Stealer MinDelay 50
