@@ -106,7 +106,7 @@ AutoClicker Left-MinCPS 14
 AutoClicker Right false
 AutoClicker Right-MaxCPS 12
 AutoClicker Right-MinCPS 8
-AutoClicker toggle true
+AutoClicker toggle false
 AutoClicker bind NONE
 AutoFish toggle false
 AutoFish bind NONE
@@ -484,6 +484,14 @@ KillAura Box-ESP false
 KillAura Circle false
 KillAura toggle false
 KillAura bind NONE
+LegitAura MaxCPS 12
+LegitAura MinCPS 10
+LegitAura MaxTurnSpeed 80.0
+LegitAura MinTurnSpeed 40.0
+LegitAura Fov 180.0
+LegitAura FakeAutoBlock true
+LegitAura toggle false
+LegitAura bind E
 LegitScaffold AutoSneak true
 LegitScaffold AutoSwitch true
 LegitScaffold SafeWalk true

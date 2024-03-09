@@ -409,7 +409,7 @@ InfiniteReach bind NONE
 InvManager MaxDelay 12
 InvManager MinDelay 3
 InvManager InvOpen true
-InvManager SimulateInventory false
+InvManager SimulateInventory true
 InvManager SimulateInventoryDelay 0
 InvManager NoMove false
 InvManager Hotbar true
@@ -483,7 +483,15 @@ KillAura CSGO-ESP false
 KillAura Box-ESP false
 KillAura Circle false
 KillAura toggle false
-KillAura bind E
+KillAura bind NONE
+LegitAura MaxCPS 14
+LegitAura MinCPS 9
+LegitAura MaxTurnSpeed 133.26924
+LegitAura MinTurnSpeed 58.846153
+LegitAura Fov 180.0
+LegitAura FakeAutoBlock true
+LegitAura toggle false
+LegitAura bind E
 LegitScaffold AutoSneak true
 LegitScaffold AutoSwitch true
 LegitScaffold SafeWalk false

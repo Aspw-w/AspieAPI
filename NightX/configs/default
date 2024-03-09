@@ -484,6 +484,14 @@ KillAura Box-ESP false
 KillAura Circle false
 KillAura toggle false
 KillAura bind NONE
+LegitAura MaxCPS 12
+LegitAura MinCPS 10
+LegitAura MaxTurnSpeed 80.0
+LegitAura MinTurnSpeed 40.0
+LegitAura Fov 180.0
+LegitAura FakeAutoBlock true
+LegitAura toggle false
+LegitAura bind NONE
 LegitScaffold AutoSneak true
 LegitScaffold AutoSwitch true
 LegitScaffold SafeWalk true
