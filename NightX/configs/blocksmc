@@ -644,7 +644,7 @@ Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
-Scaffold AutoJumpMode Off
+Scaffold AutoJumpMode KeepY
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
 Scaffold PlaceableDelay true

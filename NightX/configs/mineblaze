@@ -485,8 +485,8 @@ KillAura Circle false
 KillAura toggle false
 KillAura bind NONE
 KillAuraRecode Cooldown-Check false
-KillAuraRecode MaxCPS 12
-KillAuraRecode MinCPS 10
+KillAuraRecode MaxCPS 17
+KillAuraRecode MinCPS 12
 KillAuraRecode MaxTurnSpeed 133.26924
 KillAuraRecode MinTurnSpeed 58.846153
 KillAuraRecode Fov 180.0
@@ -644,12 +644,12 @@ Scaffold SprintMode Off
 Scaffold Place-Condition Always
 Scaffold RotationMode Smooth
 Scaffold WaitRotationMode Normal
-Scaffold AutoJumpMode Off
+Scaffold AutoJumpMode Breezily
 Scaffold Breezily-Delay 5
 Scaffold Timer 1.0
 Scaffold PlaceableDelay true
-Scaffold MaxDelay 60
-Scaffold MinDelay 50
+Scaffold MaxDelay 9
+Scaffold MinDelay 9
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 25
 Scaffold Place-SlowDown false
@@ -660,7 +660,7 @@ Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.8
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
-Scaffold AutoSneak true
+Scaffold AutoSneak false
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
