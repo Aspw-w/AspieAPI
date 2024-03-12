@@ -296,10 +296,9 @@ Disabler Timer2 false
 Disabler Debug false
 Disabler toggle false
 Disabler bind NONE
-ESP Tags true
-ESP Health-Bar true
+DrinkingAlert toggle true
+DrinkingAlert bind NONE
 ESP Local-Player false
-ESP Font-Scale 1.0
 ESP toggle true
 ESP bind NONE
 ExtendedPosition Only-KillAura false
@@ -467,7 +466,7 @@ KillAura MultiCombo false
 KillAura Multi-Packet 5
 KillAura NoHitCheck false
 KillAura Priority Distance
-KillAura TargetMode Switch
+KillAura TargetMode Single
 KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
@@ -558,6 +557,8 @@ NoFall MotionSpeed -0.01
 NoFall Void-Check false
 NoFall toggle false
 NoFall bind NONE
+NoHurtCam toggle true
+NoHurtCam bind NONE
 NoJumpDelay toggle true
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
@@ -686,6 +687,7 @@ Speed UseTimer false
 Speed StrSpeed 0.41
 Speed MotionY 0.42
 Speed LowHop true
+Speed SpeedPotBoost true
 Speed CustomSpeed 1.0
 Speed CustomLaunchSpeed 1.6
 Speed CustomAddYMotion 0.0

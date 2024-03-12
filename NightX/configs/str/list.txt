@@ -20,6 +20,5 @@ oncp
 purpleprison
 pvpland
 shotbow
-speedcubing
 verus
 vulcan
