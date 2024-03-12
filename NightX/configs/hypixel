@@ -405,7 +405,7 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 7
+InvManager MaxDelay 19
 InvManager MinDelay 3
 InvManager InvOpen true
 InvManager SimulateInventory false
@@ -649,8 +649,8 @@ Scaffold AutoJumpMode Normal
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
 Scaffold PlaceableDelay true
-Scaffold MaxDelay 10
-Scaffold MinDelay 5
+Scaffold MaxDelay 80
+Scaffold MinDelay 30
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
@@ -658,7 +658,7 @@ Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown false
 Scaffold XZ-Multiplier 0.8990385
 Scaffold NoSpeedPot true
-Scaffold SpeedPot-SlowDown 0.8990385
+Scaffold SpeedPot-SlowDown 0.8038462
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
