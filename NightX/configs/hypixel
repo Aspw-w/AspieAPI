@@ -649,8 +649,8 @@ Scaffold AutoJumpMode Normal
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
 Scaffold PlaceableDelay true
-Scaffold MaxDelay 65
-Scaffold MinDelay 30
+Scaffold MaxDelay 70
+Scaffold MinDelay 20
 Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
