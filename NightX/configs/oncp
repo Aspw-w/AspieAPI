@@ -462,6 +462,7 @@ KillAura Reset-Delay 0
 KillAura NoInvAttack false
 KillAura WallCheck false
 KillAura StopSprint false
+KillAura AntiBlink false
 KillAura MultiCombo false
 KillAura Multi-Packet 5
 KillAura NoHitCheck true
@@ -491,6 +492,7 @@ KillAuraRecode MinTurnSpeed 40.0
 KillAuraRecode Fov 180.0
 KillAuraRecode ModifiedReach false
 KillAuraRecode Range 7.0
+KillAuraRecode AntiBlink false
 KillAuraRecode VisualAutoBlock true
 KillAuraRecode RealAutoBlock false
 KillAuraRecode AutoBlockTick 5

@@ -462,6 +462,7 @@ KillAura Reset-Delay 10
 KillAura NoInvAttack true
 KillAura WallCheck false
 KillAura StopSprint false
+KillAura AntiBlink false
 KillAura MultiCombo false
 KillAura Multi-Packet 5
 KillAura NoHitCheck false
@@ -491,6 +492,7 @@ KillAuraRecode MinTurnSpeed 40.0
 KillAuraRecode Fov 180.0
 KillAuraRecode ModifiedReach false
 KillAuraRecode Range 7.0
+KillAuraRecode AntiBlink false
 KillAuraRecode VisualAutoBlock true
 KillAuraRecode RealAutoBlock false
 KillAuraRecode AutoBlockTick 5
@@ -648,7 +650,7 @@ Scaffold WaitRotationMode Normal
 Scaffold AutoJumpMode Normal
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
-Scaffold PlaceableDelay true
+Scaffold PlaceableDelay false
 Scaffold MaxDelay 70
 Scaffold MinDelay 20
 Scaffold StartPlaceChecks false
