@@ -20,5 +20,7 @@ oncp
 purpleprison
 pvpland
 shotbow
+shotbow-noac
+shotbow-slaughter
 verus
 vulcan
