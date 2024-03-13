@@ -406,9 +406,9 @@ InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
 InvManager MaxDelay 7
-InvManager MinDelay 0
+InvManager MinDelay 7
 InvManager InvOpen false
-InvManager SimulateInventory false
+InvManager SimulateInventory true
 InvManager SimulateInventoryDelay 0
 InvManager NoMove false
 InvManager Hotbar true
@@ -650,7 +650,7 @@ Scaffold WaitRotationMode Normal
 Scaffold AutoJumpMode KeepY
 Scaffold Breezily-Delay 7
 Scaffold Timer 1.0
-Scaffold PlaceableDelay true
+Scaffold PlaceableDelay false
 Scaffold MaxDelay 38
 Scaffold MinDelay 28
 Scaffold StartPlaceChecks false
