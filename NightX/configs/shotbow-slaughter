@@ -206,7 +206,7 @@ Crasher AAC-Mode 1
 Crasher toggle false
 Crasher bind NONE
 Criticals Mode NCPPacket
-Criticals Delay 76
+Criticals Delay 0
 Criticals JumpHeight 0.42
 Criticals DownY 0.0
 Criticals HurtTime 10
@@ -482,7 +482,7 @@ KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock false
 KillAura Fov 180.0
 KillAura FailRate 0.0
-KillAura LimitedMultiTargets 5
+KillAura LimitedMultiTargets 3
 KillAura WaterParticles false
 KillAura CSGO-ESP false
 KillAura Box-ESP false
