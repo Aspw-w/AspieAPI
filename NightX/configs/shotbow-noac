@@ -229,7 +229,7 @@ Disabler BlockPlacement false
 Disabler Boat false
 Disabler Latest-Verus false
 Disabler Verus-Semi false
-Disabler Verus-Combat true
+Disabler Verus-Combat false
 Disabler Gwen-Combat false
 Disabler Spartan-Combat false
 Disabler Ping-Spoof false
@@ -295,7 +295,7 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler Debug false
-Disabler toggle true
+Disabler toggle false
 Disabler bind NONE
 DrinkingAlert toggle true
 DrinkingAlert bind NONE
