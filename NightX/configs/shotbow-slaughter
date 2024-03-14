@@ -211,7 +211,7 @@ Criticals JumpHeight 0.42
 Criticals DownY 0.0
 Criticals HurtTime 10
 Criticals OnlyAura false
-Criticals toggle true
+Criticals toggle false
 Criticals bind NONE
 Dead toggle false
 Dead bind NONE
@@ -482,7 +482,7 @@ KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock false
 KillAura Fov 180.0
 KillAura FailRate 0.0
-KillAura LimitedMultiTargets 3
+KillAura LimitedMultiTargets 8
 KillAura WaterParticles false
 KillAura CSGO-ESP false
 KillAura Box-ESP false
