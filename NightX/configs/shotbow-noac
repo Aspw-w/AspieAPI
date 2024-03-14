@@ -116,6 +116,10 @@ AutoGapple Delay 150
 AutoGapple NoAbsorption true
 AutoGapple toggle false
 AutoGapple bind NONE
+AutoGetter ShotBowXP-Slaughter false
+AutoGetter PurplePrison-AutoSell false
+AutoGetter toggle false
+AutoGetter bind NONE
 AutoHeal AutoPot true
 AutoHeal Health-Pot 50.0
 AutoHeal Heal-Pot true
@@ -143,9 +147,6 @@ AutoTool bind NONE
 BackTrack MaxCachedPositions 10
 BackTrack toggle false
 BackTrack bind NONE
-BetterView CustomStrafing true
-BetterView toggle true
-BetterView bind NONE
 Blink Pulse true
 Blink C0FCancel false
 Blink PulseDelay 400
@@ -341,8 +342,10 @@ FastPlace bind NONE
 FireReducer toggle false
 FireReducer bind NONE
 Flight Mode Motion
-Flight Speed 2.596154
-Flight V-Speed 1.0576923
+Flight Speed 1.1538461
+Flight V-Speed 0.625
+Flight SprintKey-SpeedBoost true
+Flight SprintKey-SpeedAmount 2.0788462
 Flight SpoofGround false
 Flight NCPMotion 0.04
 Flight Verus-DamageMode Instant
@@ -384,6 +387,8 @@ Flight FakeDamage false
 Flight FakeY false
 Flight ViewBobbing false
 Flight BobbingAmount 0.1
+Flight SprintKey-TimerBoost false
+Flight SprintKey-TimerAmount 2.4
 Flight toggle false
 Flight bind F
 FullBright toggle true
@@ -446,7 +451,7 @@ Jesus Mode NCP
 Jesus Motion 0.5
 Jesus toggle true
 Jesus bind NONE
-KeepSprint toggle false
+KeepSprint toggle true
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
@@ -601,7 +606,7 @@ PerfectHorseJump toggle true
 PerfectHorseJump bind NONE
 Phase Mode FullBlock
 Phase toggle false
-Phase bind P
+Phase bind NONE
 PingSpoofer MaxDelay 250
 PingSpoofer MinDelay 200
 PingSpoofer toggle false
@@ -674,6 +679,9 @@ Scaffold MaxTurnSpeed 120.0
 Scaffold MinTurnSpeed 80.0
 Scaffold toggle false
 Scaffold bind G
+SilentRotations CustomStrafing true
+SilentRotations toggle true
+SilentRotations bind NONE
 SilentSneak Mode Normal
 SilentSneak toggle false
 SilentSneak bind NONE
