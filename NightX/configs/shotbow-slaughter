@@ -211,7 +211,7 @@ Criticals JumpHeight 0.42
 Criticals DownY 0.0
 Criticals HurtTime 10
 Criticals OnlyAura false
-Criticals toggle false
+Criticals toggle true
 Criticals bind NONE
 Dead toggle false
 Dead bind NONE
@@ -235,7 +235,7 @@ Disabler Spartan-Combat false
 Disabler Ping-Spoof false
 Disabler Flag false
 Disabler Input false
-Disabler NoSwing false
+Disabler NoSwing true
 Disabler Payload false
 Disabler Spectate false
 Disabler MushMC false
@@ -295,7 +295,7 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler Debug false
-Disabler toggle false
+Disabler toggle true
 Disabler bind NONE
 DrinkingAlert toggle true
 DrinkingAlert bind NONE
@@ -455,8 +455,8 @@ KeepSprint toggle true
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 5
-KillAura MinCPS 5
+KillAura MaxCPS 4
+KillAura MinCPS 4
 KillAura Target-Range 6.0
 KillAura Attack-Range 6.0
 KillAura RotationMode None
