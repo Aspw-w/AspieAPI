@@ -566,7 +566,7 @@ NoFall toggle false
 NoFall bind NONE
 NoHurtCam toggle true
 NoHurtCam bind NONE
-NoJumpDelay toggle false
+NoJumpDelay toggle true
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
 NoMouseIntersect toggle false
