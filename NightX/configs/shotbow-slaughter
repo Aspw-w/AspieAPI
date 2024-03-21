@@ -206,7 +206,7 @@ Crasher AAC-Mode 1
 Crasher toggle false
 Crasher bind NONE
 Criticals Mode NCPPacket
-Criticals Delay 0
+Criticals Delay 24
 Criticals JumpHeight 0.42
 Criticals DownY 0.0
 Criticals HurtTime 10
@@ -455,8 +455,8 @@ KeepSprint toggle true
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 4
-KillAura MinCPS 4
+KillAura MaxCPS 5
+KillAura MinCPS 5
 KillAura Target-Range 6.0
 KillAura Attack-Range 6.0
 KillAura RotationMode Standard
@@ -482,7 +482,7 @@ KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock false
 KillAura Fov 180.0
 KillAura FailRate 0.0
-KillAura LimitedMultiTargets 8
+KillAura LimitedMultiTargets 6
 KillAura WaterParticles false
 KillAura CSGO-ESP false
 KillAura Box-ESP false
@@ -680,6 +680,7 @@ Scaffold MinTurnSpeed 80.0
 Scaffold toggle false
 Scaffold bind G
 SilentRotations CustomStrafing true
+SilentRotations BodyTweaks true
 SilentRotations toggle true
 SilentRotations bind NONE
 SilentSneak Mode Normal
@@ -768,7 +769,6 @@ TPAura Rotations true
 TPAura AutoBlock true
 TPAura toggle false
 TPAura bind NONE
-TargetStrafe Range 1.5
 TargetStrafe KeyMode Jump
 TargetStrafe SafeWalk true
 TargetStrafe Behind false

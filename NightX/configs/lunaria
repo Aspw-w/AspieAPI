@@ -680,6 +680,7 @@ Scaffold MinTurnSpeed 100.0
 Scaffold toggle false
 Scaffold bind NONE
 SilentRotations CustomStrafing true
+SilentRotations BodyTweaks true
 SilentRotations toggle true
 SilentRotations bind NONE
 SilentSneak Mode Normal
@@ -768,7 +769,6 @@ TPAura Rotations true
 TPAura AutoBlock true
 TPAura toggle false
 TPAura bind NONE
-TargetStrafe Range 1.5
 TargetStrafe KeyMode Jump
 TargetStrafe SafeWalk true
 TargetStrafe Behind false

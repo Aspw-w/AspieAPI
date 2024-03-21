@@ -8,7 +8,6 @@ default
 ghost
 herobrine
 hypixel
-hypixelhousing
 lunaria
 lunarianoac
 mineblaze
@@ -19,8 +18,6 @@ norules
 oncp
 purpleprison
 pvpland
-shotbow
 shotbow-noac
 shotbow-slaughter
 verus
-vulcan
