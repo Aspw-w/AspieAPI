@@ -145,7 +145,7 @@ AutoRespawn bind NONE
 AutoTool toggle true
 AutoTool bind NONE
 BackTrack MaxCachedPositions 10
-BackTrack toggle true
+BackTrack toggle false
 BackTrack bind NONE
 Blink Pulse false
 Blink C0FCancel false

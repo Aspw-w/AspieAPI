@@ -145,7 +145,7 @@ AutoRespawn bind NONE
 AutoTool toggle true
 AutoTool bind NONE
 BackTrack MaxCachedPositions 10
-BackTrack toggle true
+BackTrack toggle false
 BackTrack bind NONE
 Blink Pulse false
 Blink C0FCancel false
@@ -566,7 +566,7 @@ NoFall toggle true
 NoFall bind NONE
 NoHurtCam toggle true
 NoHurtCam bind NONE
-NoJumpDelay toggle false
+NoJumpDelay toggle true
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
 NoMouseIntersect toggle false
