@@ -145,7 +145,7 @@ AutoRespawn bind NONE
 AutoTool toggle true
 AutoTool bind NONE
 BackTrack MaxCachedPositions 10
-BackTrack toggle true
+BackTrack toggle false
 BackTrack bind NONE
 Blink Pulse false
 Blink C0FCancel true
@@ -460,9 +460,9 @@ KillAura MinCPS 9
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.0
 KillAura RotationMode Standard
-KillAura MaxTurnSpeed 120.0
-KillAura MinTurnSpeed 100.0
-KillAura Angle-Tick 1
+KillAura MaxTurnSpeed 93.46154
+KillAura MinTurnSpeed 51.923077
+KillAura Angle-Tick 5
 KillAura Reset-Delay 0
 KillAura NoInvAttack true
 KillAura WallCheck true
@@ -753,12 +753,12 @@ Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
 Stealer bind NONE
-Step Mode Vulcan
+Step Mode Vanilla
 Step Height 2.0
 Step JumpHeight 0.42
 Step Delay 150
 Step UseTimer true
-Step toggle true
+Step toggle false
 Step bind NONE
 TPAura CPS 6
 TPAura MaxTarget 1
