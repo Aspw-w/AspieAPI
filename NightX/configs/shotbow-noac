@@ -345,7 +345,7 @@ Flight Mode Motion
 Flight Speed 1.1538461
 Flight V-Speed 0.625
 Flight SprintKey-SpeedBoost true
-Flight SprintKey-SpeedAmount 2.0788462
+Flight SprintKey-SpeedAmount 1.9375
 Flight SpoofGround false
 Flight NCPMotion 0.04
 Flight Verus-DamageMode Instant
@@ -714,8 +714,8 @@ Speed CustomDoLaunchSpeed false
 Speed JumpStrafe false
 Speed AAC-PortLength 1.0
 Speed AACGround-Timer 3.0
-Speed Velocity-Speed 0.625
-Speed Velocity-BHop false
+Speed Velocity-Speed 0.673077
+Speed Velocity-BHop true
 Speed LagCheck false
 Speed WorldCheck true
 Speed NoBob false
@@ -773,7 +773,7 @@ TargetStrafe KeyMode Jump
 TargetStrafe SafeWalk true
 TargetStrafe Behind false
 TargetStrafe ThirdPerson false
-TargetStrafe toggle false
+TargetStrafe toggle true
 TargetStrafe bind NONE
 Timer Speed 2.0
 Timer OnMove false
