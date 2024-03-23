@@ -144,9 +144,6 @@ AutoRespawn toggle false
 AutoRespawn bind NONE
 AutoTool toggle true
 AutoTool bind NONE
-BackTrack MaxCachedPositions 10
-BackTrack toggle false
-BackTrack bind NONE
 Blink Pulse true
 Blink C0FCancel false
 Blink PulseDelay 400
@@ -410,8 +407,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 57
-InvManager MinDelay 38
+InvManager MaxDelay 76
+InvManager MinDelay 48
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -422,7 +419,7 @@ InvManager Sort true
 InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
-InvManager ItemDelay 144
+InvManager ItemDelay 192
 InvManager OnlySwordWeapon false
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
@@ -462,7 +459,7 @@ KillAura Attack-Range 3.0
 KillAura RotationMode Standard
 KillAura MaxTurnSpeed 100.0
 KillAura MinTurnSpeed 60.0
-KillAura Angle-Tick 7
+KillAura Angle-Tick 1
 KillAura Reset-Delay 6
 KillAura NoInvAttack true
 KillAura WallCheck false
@@ -548,7 +545,6 @@ LookTP toggle false
 LookTP bind NONE
 Mobs toggle false
 Mobs bind NONE
-MurdererDetector ShowText true
 MurdererDetector Chat true
 MurdererDetector toggle false
 MurdererDetector bind NONE
@@ -697,8 +693,6 @@ Speed Matrix-Mode Hop
 Speed UseTimer true
 Speed StrSpeed 0.42
 Speed MotionY 0.42
-Speed LowHop true
-Speed SpeedPotBoost true
 Speed CustomSpeed 1.0
 Speed CustomLaunchSpeed 1.6
 Speed CustomAddYMotion 0.0
@@ -735,8 +729,8 @@ StaffProtection Mode Hypixel
 StaffProtection Leave true
 StaffProtection toggle true
 StaffProtection bind NONE
-Stealer MaxDelay 50
-Stealer MinDelay 30
+Stealer MaxDelay 61
+Stealer MinDelay 53
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -747,8 +741,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 130
-Stealer AutoCloseMinDelay 130
+Stealer AutoCloseMaxDelay 138
+Stealer AutoCloseMinDelay 138
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false

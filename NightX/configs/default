@@ -144,9 +144,6 @@ AutoRespawn toggle false
 AutoRespawn bind NONE
 AutoTool toggle false
 AutoTool bind NONE
-BackTrack MaxCachedPositions 10
-BackTrack toggle false
-BackTrack bind NONE
 Blink Pulse true
 Blink C0FCancel false
 Blink PulseDelay 400
@@ -548,7 +545,6 @@ LookTP toggle false
 LookTP bind NONE
 Mobs toggle true
 Mobs bind NONE
-MurdererDetector ShowText true
 MurdererDetector Chat true
 MurdererDetector toggle false
 MurdererDetector bind NONE
@@ -697,8 +693,6 @@ Speed Matrix-Mode Hop
 Speed UseTimer true
 Speed StrSpeed 0.42
 Speed MotionY 0.42
-Speed LowHop true
-Speed SpeedPotBoost true
 Speed CustomSpeed 1.0
 Speed CustomLaunchSpeed 1.6
 Speed CustomAddYMotion 0.0
