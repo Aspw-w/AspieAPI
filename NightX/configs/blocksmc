@@ -321,7 +321,7 @@ FastEat Mode BlocksMC
 FastEat CustomDelay 0
 FastEat CustomSpeed 25
 FastEat CustomTimer 1.0
-FastEat toggle true
+FastEat toggle false
 FastEat bind NONE
 FastLadder Mode Vanilla
 FastLadder UpSpeed 0.3
@@ -407,10 +407,10 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 7
-InvManager MinDelay 7
+InvManager MaxDelay 48
+InvManager MinDelay 28
 InvManager InvOpen false
-InvManager SimulateInventory true
+InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
 InvManager NoMove false
 InvManager Hotbar true
@@ -419,7 +419,7 @@ InvManager Sort true
 InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
-InvManager ItemDelay 664
+InvManager ItemDelay 288
 InvManager OnlySwordWeapon false
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
@@ -666,13 +666,13 @@ Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.24
 Scaffold AutoSneak false
 Scaffold SpeedKeepY true
-Scaffold SafeWalk true
+Scaffold SafeWalk false
 Scaffold AirSafe false
 Scaffold AutoDisable-Speed false
 Scaffold Desync false
 Scaffold DesyncDelay 400
 Scaffold MaxTurnSpeed 80.16
-Scaffold MinTurnSpeed 40.78
+Scaffold MinTurnSpeed 57.115383
 Scaffold toggle false
 Scaffold bind G
 SilentRotations CustomStrafing true
