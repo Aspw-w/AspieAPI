@@ -460,7 +460,7 @@ KillAura RotationMode Standard
 KillAura MaxTurnSpeed 100.0
 KillAura MinTurnSpeed 60.0
 KillAura Angle-Tick 1
-KillAura Reset-Delay 6
+KillAura Reset-Delay 0
 KillAura NoInvAttack true
 KillAura WallCheck false
 KillAura StopSprint false
@@ -730,7 +730,7 @@ StaffProtection Leave true
 StaffProtection toggle true
 StaffProtection bind NONE
 Stealer MaxDelay 61
-Stealer MinDelay 53
+Stealer MinDelay 42
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -741,8 +741,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 138
-Stealer AutoCloseMinDelay 138
+Stealer AutoCloseMaxDelay 153
+Stealer AutoCloseMinDelay 153
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
