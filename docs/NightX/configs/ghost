@@ -219,6 +219,7 @@ Disabler ShotBow false
 Disabler Funcraft-Staff false
 Disabler BlockDrop false
 Disabler Grim false
+Disabler GrimSpectate false
 Disabler Hycraft false
 Disabler Inventory-Spoof false
 Disabler Jump false
@@ -444,7 +445,7 @@ InvMove toggle false
 InvMove bind NONE
 Invisible toggle true
 Invisible bind NONE
-Jesus Mode NCP
+Jesus Mode Vanilla
 Jesus Motion 0.5
 Jesus toggle false
 Jesus bind NONE

@@ -219,6 +219,7 @@ Disabler ShotBow false
 Disabler Funcraft-Staff false
 Disabler BlockDrop false
 Disabler Grim false
+Disabler GrimSpectate false
 Disabler Hycraft false
 Disabler Inventory-Spoof false
 Disabler Jump false
