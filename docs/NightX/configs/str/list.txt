@@ -1,4 +1,3 @@
-Official Configs:
 2b2tjp
 aac
 anarchy
