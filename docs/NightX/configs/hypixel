@@ -60,7 +60,7 @@ AntiFrozen bind NONE
 AntiSuffocation Mode Legit
 AntiSuffocation BreakPosition Normal
 AntiSuffocation Swing Packet
-AntiSuffocation toggle false
+AntiSuffocation toggle true
 AntiSuffocation bind NONE
 AntiTeams ScoreboardTeam true
 AntiTeams Color true
@@ -408,8 +408,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 76
-InvManager MinDelay 48
+InvManager MaxDelay 96
+InvManager MinDelay 76
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -453,7 +453,7 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 13
+KillAura MaxCPS 12
 KillAura MinCPS 8
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.0
@@ -461,7 +461,7 @@ KillAura RotationMode Standard
 KillAura MaxTurnSpeed 100.0
 KillAura MinTurnSpeed 60.0
 KillAura Angle-Tick 1
-KillAura Reset-Delay 0
+KillAura Reset-Delay 10
 KillAura NoInvAttack true
 KillAura WallCheck false
 KillAura StopSprint false
@@ -662,7 +662,7 @@ Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown false
 Scaffold XZ-Multiplier 0.8990385
 Scaffold NoSpeedPot true
-Scaffold SpeedPot-SlowDown 0.8038462
+Scaffold SpeedPot-SlowDown 0.84615386
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
@@ -723,15 +723,15 @@ Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent true
+Sprint Silent false
 Sprint toggle true
 Sprint bind NONE
 StaffProtection Mode Hypixel
 StaffProtection Leave true
 StaffProtection toggle true
 StaffProtection bind NONE
-Stealer MaxDelay 61
-Stealer MinDelay 42
+Stealer MaxDelay 84
+Stealer MinDelay 65
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -742,8 +742,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 153
-Stealer AutoCloseMinDelay 153
+Stealer AutoCloseMaxDelay 173
+Stealer AutoCloseMinDelay 173
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
