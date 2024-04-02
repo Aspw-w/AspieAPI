@@ -447,9 +447,9 @@ InvMove toggle true
 InvMove bind NONE
 Invisible toggle false
 Invisible bind NONE
-Jesus Mode Vanilla
+Jesus Mode Vulcan
 Jesus Motion 0.5
-Jesus toggle false
+Jesus toggle true
 Jesus bind NONE
 KeepSprint toggle false
 KeepSprint bind NONE
