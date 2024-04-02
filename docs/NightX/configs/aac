@@ -88,7 +88,7 @@ AntiVelocity LegitFace true
 AntiVelocity JumpReset-Mode Normal
 AntiVelocity AACStrafeValue false
 AntiVelocity Phase-Offset 0.05
-AntiVelocity toggle true
+AntiVelocity toggle false
 AntiVelocity bind NONE
 AntiVoid Detect-Method Collision
 AntiVoid SetBack-Mode FlyFlag
@@ -477,9 +477,9 @@ KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
-KillAura AutoBlock Fake
-KillAura ReBlock-Delay 10
-KillAura InteractAutoBlock false
+KillAura AutoBlock Perfect
+KillAura ReBlock-Delay 80
+KillAura InteractAutoBlock true
 KillAura Fov 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
