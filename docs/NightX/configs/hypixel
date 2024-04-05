@@ -61,7 +61,7 @@ AntiFireBall toggle true
 AntiFireBall bind NONE
 AntiFrozen toggle true
 AntiFrozen bind NONE
-AntiSuffocation Mode GodMode
+AntiSuffocation Mode Legit
 AntiSuffocation BreakPosition Normal
 AntiSuffocation Swing Packet
 AntiSuffocation toggle true
