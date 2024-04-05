@@ -462,7 +462,7 @@ KillAura Attack-Range 4.5
 KillAura RotationMode Standard
 KillAura MaxTurnSpeed 129.8077
 KillAura MinTurnSpeed 90.0
-KillAura Angle-Tick 11
+KillAura Angle-Tick 1
 KillAura Reset-Delay 0
 KillAura NoInvAttack false
 KillAura WallCheck false
@@ -583,7 +583,7 @@ NoSlow PacketTrigger PostRelease
 NoSlow Debug false
 NoSlow Soulsand true
 NoSlow LiquidPush true
-NoSlow toggle true
+NoSlow toggle false
 NoSlow bind NONE
 Nuker Radius 4.2
 Nuker ThroughWalls true
