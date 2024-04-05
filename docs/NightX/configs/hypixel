@@ -61,7 +61,7 @@ AntiFireBall toggle true
 AntiFireBall bind NONE
 AntiFrozen toggle true
 AntiFrozen bind NONE
-AntiSuffocation Mode Legit
+AntiSuffocation Mode GodMode
 AntiSuffocation BreakPosition Normal
 AntiSuffocation Swing Packet
 AntiSuffocation toggle true
@@ -410,8 +410,8 @@ InfiniteDurability toggle false
 InfiniteDurability bind NONE
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 96
-InvManager MinDelay 76
+InvManager MaxDelay 105
+InvManager MinDelay 86
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -730,8 +730,8 @@ Spider bind NONE
 Sprint Silent false
 Sprint toggle true
 Sprint bind NONE
-Stealer MaxDelay 84
-Stealer MinDelay 65
+Stealer MaxDelay 92
+Stealer MinDelay 76
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -742,8 +742,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 173
-Stealer AutoCloseMinDelay 173
+Stealer AutoCloseMaxDelay 146
+Stealer AutoCloseMinDelay 146
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
