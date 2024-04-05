@@ -16,6 +16,6 @@ norules
 oncp
 purpleprison
 pvpland
-shotbow-noac
+shotbow
 shotbow-slaughter
 verus
