@@ -1,1 +1,2 @@
-ViaVersion Not Working
+ViaForge Not Working
+(This is a ViaVersion's bug. Wait for EnZaXD's update)
