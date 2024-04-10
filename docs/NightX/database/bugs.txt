@@ -1,2 +1,2 @@
 ViaForge Not Working
-(This is a ViaVersion's bug. Wait for EnZaXD's update)
+(This is a ViaRewind's bug. Wait for EnZaXD's update)
