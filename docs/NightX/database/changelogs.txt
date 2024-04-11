@@ -1,14 +1,14 @@
-(B106)
+B106
 + Added Protocols Support (1.7.x, AprilFools)
 + Added 1.7.x Via Tweaks
 + Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
 
-(B105)
+B105
 * Changed NightX Cape Picture
 * Fixed PrevRotations Pitch
 
-(B104)
+B104
 + Added Spammer Module
 + Added PacketMine Module
 + Added Animations mode SlideSwing, SmallPush, Avatar
@@ -23,7 +23,7 @@
 * Renamed StaffProtection to AdminDetector
 * Reverted some modules from NightX B47~
 
-(B103)
+B103
 + Added Jesus mode Verus, Vulcan
 + Added Disabler mode GrimSpectate
 - Removed ugly protocols from ProtocolSelector Gui
@@ -37,7 +37,7 @@
 * Fixed cannot disable SilentRotations Module
 * Changed Update Java Link
 
-(B102)
+B102
 * Improved Entity Render Performance
 * Improved WatchdogGround Speed (speedpot flags, more faster)
 * Improved .config Command
@@ -46,14 +46,14 @@
 * Fixed TargetHud Renderer when target's health is more than 20.0
 * Fixed Trajectories fake trails
 
-(B101)
+B101
 + Added some stuff
 - Removed BackTrack module (buggy)
 * Improved ClickGui
 * Improved Performance
 * Fixed WatchdogGround Speed AutoBan + More Faster
 
-(B100)
+B100
 * Improved animation stuff
 * Fixed Command Crashes
 * Fixed Stutters
