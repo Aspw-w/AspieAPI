@@ -1,3 +1,61 @@
+(B106)
 + Added Protocols Support (1.7.x, AprilFools)
 + Added 1.7.x Via Tweaks
++ Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
+
+(B105)
+* Changed NightX Cape Picture
+* Fixed PrevRotations Pitch
+
+(B104)
++ Added Spammer Module
++ Added PacketMine Module
++ Added Animations mode SlideSwing, SmallPush, Avatar
++ Added Cape Module Animation-Mode Option
+* Improved ArrayList Color
+* Improved EnchantColor Module
+* Fixed Entity Culling FPS
+* Fixed IngameGui NullPointer and Crashes (since B103)
+* Fixed B104 is Not B104 XD
+* Fixed lower player step height when Step Module was disabled
+* Renamed ExtendedPosition to BackTrack
+* Renamed StaffProtection to AdminDetector
+* Reverted some modules from NightX B47~
+
+(B103)
++ Added Jesus mode Verus, Vulcan
++ Added Disabler mode GrimSpectate
+- Removed ugly protocols from ProtocolSelector Gui
+* Improved ProtocolSelector Gui
+* Improved some Animations
+* Fully Fixed API Connection
+* Fixed Entity Light Renderer
+* Fixed Entity Nametag Renderer
+* Fixed ESP Module some entities duplicated nametags
+* Fixed Annoy detectable on Watchdog
+* Fixed cannot disable SilentRotations Module
+* Changed Update Java Link
+
+(B102)
+* Improved Entity Render Performance
+* Improved WatchdogGround Speed (speedpot flags, more faster)
+* Improved .config Command
+* Improved ClickGui Performance
+* Improved TargetHud Performance
+* Fixed TargetHud Renderer when target's health is more than 20.0
+* Fixed Trajectories fake trails
+
+(B101)
++ Added some stuff
+- Removed BackTrack module (buggy)
+* Improved ClickGui
+* Improved Performance
+* Fixed WatchdogGround Speed AutoBan + More Faster
+
+(B100)
+* Improved animation stuff
+* Fixed Command Crashes
+* Fixed Stutters
+* Fixed Illegial Flag Packets
+* Performance Improvements
