@@ -3,11 +3,9 @@ B106
 + Added 1.7.x Via Tweaks
 + Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
-
 B105
 * Changed NightX Cape Picture
 * Fixed PrevRotations Pitch
-
 B104
 + Added Spammer Module
 + Added PacketMine Module
@@ -22,7 +20,6 @@ B104
 * Renamed ExtendedPosition to BackTrack
 * Renamed StaffProtection to AdminDetector
 * Reverted some modules from NightX B47~
-
 B103
 + Added Jesus mode Verus, Vulcan
 + Added Disabler mode GrimSpectate
@@ -36,7 +33,6 @@ B103
 * Fixed Annoy detectable on Watchdog
 * Fixed cannot disable SilentRotations Module
 * Changed Update Java Link
-
 B102
 * Improved Entity Render Performance
 * Improved WatchdogGround Speed (speedpot flags, more faster)
@@ -45,14 +41,12 @@ B102
 * Improved TargetHud Performance
 * Fixed TargetHud Renderer when target's health is more than 20.0
 * Fixed Trajectories fake trails
-
 B101
 + Added some stuff
 - Removed BackTrack module (buggy)
 * Improved ClickGui
 * Improved Performance
 * Fixed WatchdogGround Speed AutoBan + More Faster
-
 B100
 * Improved animation stuff
 * Fixed Command Crashes
