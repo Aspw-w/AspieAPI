@@ -150,7 +150,7 @@ AutoTool toggle true
 AutoTool bind NONE
 BackTrack ResetOnVelocity true
 BackTrack ResetOnLagging true
-BackTrack toggle false
+BackTrack toggle true
 BackTrack bind NONE
 Blink Pulse false
 Blink C0FCancel true
