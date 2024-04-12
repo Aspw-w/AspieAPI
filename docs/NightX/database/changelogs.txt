@@ -1,4 +1,4 @@
-~ B106 (#NULL)
+~ B106 (#5457ec7)
 + Added Protocols Support (1.7.x, AprilFools)
 + Added 1.7.x Via Tweaks
 + Added PacketTracker Module (It's good to detect server anticheat)
