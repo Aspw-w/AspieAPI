@@ -3,13 +3,13 @@
 + Added 1.7.x Via Tweaks
 + Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
-* Fixed AutoHeal sometimes not working
-* Fixed LegitScaffold AutoSneak Option not working
 * Fully Fixed ViaVersion Not Working
+* Fixed AutoHeal sometimes Not Working
+* Fixed LegitScaffold AutoSneak Option Not Working
 
 ~ B105 (#7ee8d5d)
-* Changed NightX Cape Picture
 * Fixed PrevRotations Pitch
+* Changed Cape Pictures
 
 ~ B104 (#3feceba)
 + Added Spammer Module
@@ -18,47 +18,43 @@
 + Added Cape Module Animation-Mode Option
 * Improved ArrayList Color
 * Improved EnchantColor Module
-* Fixed Entity Culling FPS
+* Fixed Entity Culling FPS Drops
 * Fixed IngameGui NullPointer and Crashes (since B103)
-* Fixed B104 is Not B104 XD
 * Fixed lower player step height when Step Module was disabled
 * Renamed ExtendedPosition to BackTrack
 * Renamed StaffProtection to AdminDetector
-* Reverted some modules from NightX B47~
+* Reverted some modules from NightX B47
 
 ~ B103 (#239152e)
 + Added Jesus mode Verus, Vulcan
 + Added Disabler mode GrimSpectate
-- Removed ugly protocols from ProtocolSelector Gui
+- Removed Some Unknown Protocols
 * Improved ProtocolSelector Gui
-* Improved some Animations
+* Improved Some Animations
 * Fully Fixed API Connection
 * Fixed Entity Light Renderer
-* Fixed Entity Nametag Renderer
-* Fixed ESP Module some entities duplicated nametags
-* Fixed Annoy detectable on Watchdog
-* Fixed cannot disable SilentRotations Module
+* Fixed Entity NameTag Renderer
+* Fixed ESP Module Duplicated NameTags
+* Fixed Annoy Detectable on Watchdog
 * Changed Update Java Link
 
 ~ B102 (#e26732b)
 * Improved Entity Render Performance
-* Improved WatchdogGround Speed (speedpot flags, more faster)
+* Improved WatchdogGround Speed (SpeedPot Fixes)
 * Improved .config Command
 * Improved ClickGui Performance
 * Improved TargetHud Performance
-* Fixed TargetHud Renderer when target's health is more than 20.0
-* Fixed Trajectories fake trails
+* Fixed TargetHud HealthBar Renderer
+* Fixed Trajectories Fake Trails
 
 ~ B101 (#a7ed8c5)
-+ Added some stuff
-- Removed BackTrack module (buggy)
++ Added Some Features
 * Improved ClickGui
 * Improved Performance
 * Fixed WatchdogGround Speed AutoBan + More Faster
 
 ~ B100 (#f0687cc)
-* Improved animation stuff
-* Fixed Command Crashes
-* Fixed Stutters
-* Fixed Illegial Flag Packets
-* Performance Improvements
+* Improved Animations Module
+* Improved Performance
+* Fully Fixed Illegial Flag Packets
+* Fixed .unicode Command Crashes
