@@ -23,11 +23,11 @@
 * Fixed Low Player Step Height when Step Module was Disabled
 * Renamed ExtendedPosition to BackTrack
 * Renamed StaffProtection to AdminDetector
-* Reverted some modules from NightX B47
+* Reverted Some Modules from NightX B47
 
 ~ B103 (#239152e)
-+ Added Jesus mode Verus, Vulcan
-+ Added Disabler mode GrimSpectate
++ Added Jesus Mode Verus, Vulcan
++ Added Disabler Mode GrimSpectate
 - Removed Some Unknown Protocols
 * Improved ProtocolSelector Gui
 * Improved Some Animations
