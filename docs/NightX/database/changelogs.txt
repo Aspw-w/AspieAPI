@@ -3,7 +3,8 @@
 + Added 1.7.x Via Tweaks
 + Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
-* Fixed LegitScaffold AutoSneak Option Not Working
+* Fixed AutoHeal sometimes not working
+* Fixed LegitScaffold AutoSneak Option not working
 * Fully Fixed ViaVersion Not Working
 
 ~ B105 (#7ee8d5d)
