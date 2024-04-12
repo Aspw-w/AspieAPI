@@ -14,7 +14,7 @@
 ~ B104 (#3feceba)
 + Added Spammer Module
 + Added PacketMine Module
-+ Added Animations mode SlideSwing, SmallPush, Avatar
++ Added Animations Mode SlideSwing, SmallPush, Avatar
 + Added Cape Module Animation-Mode Option
 * Improved ArrayList Color
 * Improved EnchantColor Module
