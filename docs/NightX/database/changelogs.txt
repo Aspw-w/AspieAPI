@@ -3,6 +3,7 @@
 + Added 1.7.x Via Tweaks
 + Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
+* Fully Fixed ViaVersion Not Working
 
 ~ B105 (#7ee8d5d)
 * Changed NightX Cape Picture
