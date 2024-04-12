@@ -20,7 +20,7 @@
 * Improved EnchantColor Module
 * Fixed Entity Culling FPS Drops
 * Fixed IngameGui NullPointer and Crashes (since B103)
-* Fixed lower player step height when Step Module was disabled
+* Fixed Low Player Step Height when Step Module was Disabled
 * Renamed ExtendedPosition to BackTrack
 * Renamed StaffProtection to AdminDetector
 * Reverted some modules from NightX B47
