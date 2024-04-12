@@ -599,6 +599,10 @@ PackSpoofer toggle false
 PackSpoofer bind NONE
 PacketMine toggle false
 PacketMine bind NONE
+PacketTracker Transaction-ID true
+PacketTracker KeepAlive-Key false
+PacketTracker toggle false
+PacketTracker bind NONE
 PerfectHorseJump toggle true
 PerfectHorseJump bind NONE
 Phase Mode FullBlock
