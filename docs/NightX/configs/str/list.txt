@@ -2,6 +2,7 @@
 aac
 anarchy
 blocksmc
+bridgerland
 coldpvpanarchy
 default
 ghost
