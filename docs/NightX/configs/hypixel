@@ -653,7 +653,7 @@ Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
-Scaffold AutoJumpMode Breezily
+Scaffold AutoJumpMode HypixelKeepY
 Scaffold Breezily-Delay 4
 Scaffold Timer 1.0
 Scaffold PlaceableDelay false
@@ -663,15 +663,15 @@ Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
-Scaffold SlowDown true
+Scaffold SlowDown false
 Scaffold XZ-Multiplier 0.8990385
-Scaffold NoSpeedPot true
+Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.84615386
 Scaffold CustomSpeed false
 Scaffold CustomMoveSpeed 0.2
 Scaffold AutoSneak false
 Scaffold SpeedKeepY true
-Scaffold SafeWalk true
+Scaffold SafeWalk false
 Scaffold AirSafe false
 Scaffold AutoDisable-Speed true
 Scaffold Desync false
