@@ -1,9 +1,9 @@
 ~ B106 (#5457ec7)
-+ Added Protocols Support (1.7.x, AprilFools)
-+ Added 1.7.x Via Tweaks
++ Added Protocols Support (1.7.x, AprilFools) <= FDP JUST SKIDDED MY CODES LOL
++ Added 1.7.x Via Tweaks <= FDP JUST SKIDDED MY CODES LOL
 + Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
-* Fully Fixed ViaVersion Not Working
+* Fully Fixed ViaVersion Not Working <= FDP JUST SKIDDED MY CODES LOL
 * Fixed AutoHeal Sometimes Not Working
 * Fixed LegitScaffold AutoSneak Option Not Working
 
