@@ -1,3 +1,7 @@
+~ B107 (#BETA)
++ Added Scaffold AutoJumpMode HypixelKeepY
++ Fixed Scaffold Invalid Placements (Since B99)
+
 ~ B106 (#5457ec7)
 + Added Protocols Support (1.7.x, AprilFools) <= FDP JUST SKIDDED MY CODES LOL
 + Added 1.7.x Via Tweaks <= FDP JUST SKIDDED MY CODES LOL
