@@ -1,5 +1,6 @@
 ~ B107 (#BETA)
 + Added Scaffold AutoJumpMode HypixelKeepY
++ Improved WatchdogGround Speed (DamageStrafe)
 + Fixed Scaffold Invalid Placements (Since B99)
 
 ~ B106 (#5457ec7)
