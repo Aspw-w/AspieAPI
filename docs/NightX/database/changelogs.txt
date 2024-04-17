@@ -1,5 +1,5 @@
 ~ B107 (#NoCommit)
-+ Added Scaffold AutoJumpMode HypixelKeepY
++ Added Scaffold AutoJumpMode HypixelKeepY <- 04/17/2024 Patched (Do not recommend to use)
 * Improved WatchdogGround Speed (DamageStrafe)
 * Fixed Scaffold Invalid Placements (Since B99)
 

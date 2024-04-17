@@ -7,7 +7,7 @@ coldpvpanarchy
 default
 ghost
 herobrine
-hypixel
+hypixel <- Patched now. DO NOT RECOMMEND TO USE
 lunaria
 mineblaze
 minemen
