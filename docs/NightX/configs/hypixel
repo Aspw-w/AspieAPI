@@ -64,7 +64,7 @@ AntiFrozen bind NONE
 AntiSuffocation Mode Legit
 AntiSuffocation BreakPosition Normal
 AntiSuffocation Swing Packet
-AntiSuffocation toggle false
+AntiSuffocation toggle true
 AntiSuffocation bind NONE
 AntiTeams ScoreboardTeam true
 AntiTeams Color true
@@ -463,7 +463,7 @@ KillAura RotationMode Standard
 KillAura MaxTurnSpeed 100.0
 KillAura MinTurnSpeed 60.0
 KillAura Angle-Tick 1
-KillAura Reset-Delay 10
+KillAura Reset-Delay 0
 KillAura NoInvAttack true
 KillAura WallCheck false
 KillAura StopSprint false
@@ -731,7 +731,7 @@ Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent true
+Sprint Silent false
 Sprint toggle true
 Sprint bind NONE
 Stealer MaxDelay 92
