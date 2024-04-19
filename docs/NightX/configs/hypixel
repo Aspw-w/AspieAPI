@@ -451,7 +451,7 @@ Jesus Mode Vanilla
 Jesus Motion 0.5
 Jesus toggle false
 Jesus bind NONE
-KeepSprint toggle false
+KeepSprint toggle true
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
@@ -463,7 +463,7 @@ KillAura RotationMode Standard
 KillAura MaxTurnSpeed 100.0
 KillAura MinTurnSpeed 60.0
 KillAura Angle-Tick 1
-KillAura Reset-Delay 0
+KillAura Reset-Delay 16
 KillAura NoInvAttack true
 KillAura WallCheck false
 KillAura StopSprint false
@@ -663,8 +663,8 @@ Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
-Scaffold SlowDown false
-Scaffold XZ-Multiplier 0.8990385
+Scaffold SlowDown true
+Scaffold XZ-Multiplier 0.0
 Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.84615386
 Scaffold CustomSpeed false

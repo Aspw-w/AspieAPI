@@ -1,14 +1,14 @@
 ~ B107 (#4debbfa)
-+ Added Scaffold AutoJumpMode HypixelKeepY <- 04/17/2024 Patched (Do not recommend to use)
++ Added Scaffold AutoJumpMode HypixelKeepY
 * Improved WatchdogGround Speed (DamageStrafe)
 * Fixed Scaffold Invalid Placements (Since B99)
 
 ~ B106 (#5457ec7)
-+ Added Protocols Support (1.7.x, AprilFools) <= FDP JUST SKIDDED MY CODES LOL
-+ Added 1.7.x Via Tweaks <= FDP JUST SKIDDED MY CODES LOL
++ Added Protocols Support (1.7.x, AprilFools)
++ Added 1.7.x Via Tweaks
 + Added PacketTracker Module (It's good to detect server anticheat)
 * Improved MainMenu (Changelogs, Bugs)
-* Fully Fixed ViaVersion Not Working <= FDP JUST SKIDDED MY CODES LOL
+* Fully Fixed ViaVersion Not Working
 * Fixed AutoHeal Sometimes Not Working
 * Fixed LegitScaffold AutoSneak Option Not Working
 
