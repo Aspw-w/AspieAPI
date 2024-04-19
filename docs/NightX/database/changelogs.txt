@@ -1,3 +1,6 @@
+~ B108 (#BETA)
+* Fixed mcmod.info URL
+
 ~ B107 (#4debbfa)
 + Added Scaffold AutoJumpMode HypixelKeepY
 * Improved WatchdogGround Speed (DamageStrafe)
