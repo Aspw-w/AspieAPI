@@ -1,4 +1,4 @@
-~ B108 (#BETA)
+~ B108 (#5929f17)
 * Updated MurdererDetector Skin Items for Latest Hypixel
 * Fixed mcmod.info URL
 
