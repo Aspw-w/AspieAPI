@@ -1,3 +1,9 @@
+~ B109 (#BETA)
++ Updated ViaVersion (1.20.5 Support)
+* Improved WatchdogGround Speed
+* Improved Scaffold Settings
+* Improved Animations
+
 ~ B108 (#5929f17)
 * Updated MurdererDetector Skin Items for Latest Hypixel
 * Fixed mcmod.info URL
