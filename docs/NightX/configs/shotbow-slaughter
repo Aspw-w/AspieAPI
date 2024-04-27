@@ -477,7 +477,7 @@ KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
-KillAura AutoBlock 1.9+
+KillAura AutoBlock Fake
 KillAura ReBlock-Delay 10
 KillAura InteractAutoBlock false
 KillAura Fov 180.0

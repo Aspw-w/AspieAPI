@@ -649,7 +649,7 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold SprintMode Same
+Scaffold SprintMode Off
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
@@ -664,7 +664,7 @@ Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
 Scaffold SlowDown true
-Scaffold XZ-Multiplier 0.0
+Scaffold XZ-Multiplier 1.2
 Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.84615386
 Scaffold CustomSpeed false
