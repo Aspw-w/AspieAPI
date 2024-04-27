@@ -1,6 +1,7 @@
-~ B109 (#BETA)
+~ B109 (#442da07)
 + Added MurdererDetector Unlimited Players Support
 + Updated ViaVersion (1.20.5, 1.20.6 Support)
+- Removed KillAura Mode 1.9+ (Broken in Latest Via Builds)
 * Improved Via Tweak Animations
 * Improved TargetHud
 * Improved WatchdogGround Speed
