@@ -1,7 +1,11 @@
 ~ B109 (#BETA)
-+ Updated ViaVersion (1.20.5 Support)
++ Added MurdererDetector Unlimited Players Support
++ Updated ViaVersion (1.20.5, 1.20.6 Support)
+* Improved Via Tweak Animations
+* Improved TargetHud
 * Improved WatchdogGround Speed
 * Improved Scaffold Settings
+* Improved .friend Command
 * Improved Animations
 
 ~ B108 (#5929f17)
