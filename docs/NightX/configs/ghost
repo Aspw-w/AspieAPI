@@ -165,7 +165,6 @@ BowJump Height 0.58
 BowJump Timer 1.0
 BowJump DelayBeforeArrowLaunch 1
 BowJump AutoDisable true
-BowJump FakeY false
 BowJump ViewBobbing false
 BowJump BobbingAmount 0.1
 BowJump RenderStatus false
@@ -384,7 +383,6 @@ Flight FakeNoMove false
 Flight LagCheck false
 Flight WorldCheck true
 Flight FakeDamage false
-Flight FakeY false
 Flight ViewBobbing false
 Flight BobbingAmount 0.1
 Flight SprintKey-TimerBoost false
@@ -464,6 +462,7 @@ KillAura MaxTurnSpeed 120.0
 KillAura MinTurnSpeed 100.0
 KillAura Angle-Tick 1
 KillAura Reset-Delay 0
+KillAura 1.9+Attack false
 KillAura NoInvAttack false
 KillAura WallCheck false
 KillAura StopSprint false
@@ -472,17 +471,17 @@ KillAura MultiCombo false
 KillAura Multi-Packet 5
 KillAura NoHitCheck false
 KillAura Priority Distance
-KillAura TargetMode Single
+KillAura Switch-Delay 400
 KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
 KillAura AutoBlock Fake
 KillAura ReBlock-Delay 10
+KillAura Blink-Delay 5
 KillAura InteractAutoBlock false
 KillAura Fov 180.0
 KillAura FailRate 0.0
-KillAura LimitedMultiTargets 6
 KillAura toggle false
 KillAura bind NONE
 KillAuraRecode Cooldown-Check false
@@ -533,7 +532,6 @@ LongJump LagCheck true
 LongJump WorldCheck true
 LongJump AutoDisable true
 LongJump FakeDamage false
-LongJump FakeY false
 LongJump ViewBobbing false
 LongJump BobbingAmount 0.1
 LongJump toggle false
@@ -722,7 +720,6 @@ Speed Velocity-BHop true
 Speed LagCheck true
 Speed WorldCheck true
 Speed NoBob false
-Speed FakeY false
 Speed toggle false
 Speed bind NONE
 Spider Mode Simple
@@ -764,6 +761,7 @@ TPAura MaxTarget 1
 TPAura Range 30
 TPAura Fov 180.0
 TPAura Swing Normal
+TPAura 1.9+Attack false
 TPAura Rotations true
 TPAura AutoBlock true
 TPAura toggle false
