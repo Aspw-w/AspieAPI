@@ -1,7 +1,8 @@
 ~ B110 (#BETA)
-+ Added KillAura AutoBlockMode Blink (Works on Hypixel)
++ Added KillAura AutoBlockMode Blink (DON'T WORKS on Hypixel)
 - Removed Built-in ViaVersion (Separated to ViaForgePlus mod)
 * Improved MainMenu
+* Improved Performance
 * Improved SilentRotations
 * Clean up codes
 
