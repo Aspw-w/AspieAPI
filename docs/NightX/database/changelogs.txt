@@ -1,6 +1,7 @@
 ~ B111 (###)
 - Removed KillAura AutoBlockMode Blink (Buggy)
 - Removed Enchanced Creative Inventory Items (Separated to ViaForgePlus mod)
+* Improved Scaffold AutoJumpMode HypixelKeepY
 * Improved KillAura Packets
 
 ~ B110 (#f873a7b)
