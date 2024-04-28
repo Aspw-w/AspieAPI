@@ -1,3 +1,8 @@
+~ B110 (#BETA)
++ Added KillAura AutoBlockMode Blink (Works on Hypixel)
+- Removed Built-in ViaVersion (Separated to ViaForgePlus mod)
+* Clean up codes
+
 ~ B109 (#442da07)
 + Added MurdererDetector Unlimited Players Support
 + Updated ViaVersion (1.20.5, 1.20.6 Support)
