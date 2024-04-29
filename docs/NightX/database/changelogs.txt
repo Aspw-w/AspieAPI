@@ -1,3 +1,9 @@
+~ B112 (#BETA)
+* Improved Performance
+* Fixed AutoTool, PacketMine, CivBreak Not Working (since B111)
+* Fixed CustomModel Module ThirdPerson Renderer
+* Fixed CPS Counter
+
 ~ B111 (#03bc145)
 + Added TargetESP Module
 - Removed KillAura AutoBlockMode Blink (Buggy)
