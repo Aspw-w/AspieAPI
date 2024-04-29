@@ -471,17 +471,17 @@ KillAura MultiCombo false
 KillAura Multi-Packet 5
 KillAura NoHitCheck false
 KillAura Priority Distance
-KillAura Switch-Delay 400
+KillAura TargetMode Single
 KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
 KillAura Criticals false
 KillAura AutoBlock Fake
 KillAura ReBlock-Delay 30
-KillAura Blink-Delay 5
 KillAura InteractAutoBlock true
 KillAura Fov 180.0
 KillAura FailRate 0.0
+KillAura LimitedMultiTargets 6
 KillAura toggle false
 KillAura bind E
 KillAuraRecode Cooldown-Check false
@@ -647,7 +647,7 @@ Scaffold TeleportHeight 1.15
 Scaffold TeleportDelay 0
 Scaffold TeleportGround true
 Scaffold TeleportNoMotion false
-Scaffold SprintMode Off
+Scaffold SprintMode Same
 Scaffold Place-Condition Always
 Scaffold RotationMode Normal
 Scaffold WaitRotationMode Normal
@@ -661,7 +661,7 @@ Scaffold StartPlaceChecks false
 Scaffold StartPlace-Delay 5
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.9
-Scaffold SlowDown true
+Scaffold SlowDown false
 Scaffold XZ-Multiplier 1.2
 Scaffold NoSpeedPot false
 Scaffold SpeedPot-SlowDown 0.84615386
