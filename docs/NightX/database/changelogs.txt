@@ -1,4 +1,4 @@
-~ B112 (#BETA)
+~ B112 (#1ddee25)
 * Improved Performance
 * Fixed AutoTool, PacketMine, CivBreak Not Working (since B111)
 * Fixed CustomModel Module ThirdPerson Renderer
