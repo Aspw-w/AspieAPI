@@ -626,6 +626,10 @@ Regen Speed 25
 Regen NoAir false
 Regen toggle false
 Regen bind NONE
+ReverseFreecam Speed 0.5
+ReverseFreecam V-Speed 0.5
+ReverseFreecam toggle false
+ReverseFreecam bind NONE
 SafeWalk AirSafe false
 SafeWalk toggle false
 SafeWalk bind NONE

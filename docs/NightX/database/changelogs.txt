@@ -1,3 +1,12 @@
+~ B113 (#9bbe9f8)
++ Added ReverseFreecam Module
+* Improved Freecam Visuals and Movements
+* Improved Scaffold AutoJumpMode HypixelKeepY
+* Improved .remoteview Command
+* Improved Animations Mode Moon
+* Fixed Scaffold Bad ItemSwitch
+* Fixed WatchdogGround Speed (When SpeedPot 1)
+
 ~ B112 (#1ddee25)
 * Improved Performance
 * Fixed AutoTool, PacketMine, CivBreak Not Working (since B111)
