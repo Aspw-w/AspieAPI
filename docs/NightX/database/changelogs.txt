@@ -1,3 +1,6 @@
+~ B115 (#7d01870)
+* Fixed TeleportEvent, EntityMovementEvent Not Working
+
 ~ B114 (#a6df39e)
 + Added QuickExploits Module
 + Added More ClickGui Pictures
