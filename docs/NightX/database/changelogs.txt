@@ -1,3 +1,11 @@
+~ B114 (#a6df39e)
++ Added QuickExploits Module
++ Added More ClickGui Pictures
++ Added Crasher SinglePlayer Protection
+- Removed Disabler Mode GrimSpectate (Crashing)
+* Improved Freecam, ReverseFreecam Renderer
+* Fixed Invalid Movement Packets
+
 ~ B113 (#9bbe9f8)
 + Added ReverseFreecam Module
 * Improved Freecam Visuals and Movements
