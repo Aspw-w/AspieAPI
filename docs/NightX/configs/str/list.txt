@@ -4,6 +4,7 @@ anarchy
 blocksmc
 bridgerland
 coldpvpanarchy
+cubecraft
 default
 ghost
 herobrine
