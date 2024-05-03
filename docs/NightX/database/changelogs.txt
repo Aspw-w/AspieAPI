@@ -1,3 +1,6 @@
+~ B117 (#unreleased)
++ Added Disabler Mode Cubecraft (it disables sentinel's every movement checks)
+
 ~ B116 (#f1c383d)
 + Added HiderESP Module (for Hypixel Prophunt)
 + Added WTap Module Delay Option
