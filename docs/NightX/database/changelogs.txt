@@ -1,5 +1,4 @@
 ~ B117 (#unreleased)
-+ Added Disabler Mode Cubecraft (it disables sentinel's every movement checks)
 * Fixed Sometimes Missing Last Server IP Address
 
 ~ B116 (#f1c383d)
