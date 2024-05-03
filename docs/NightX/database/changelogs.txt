@@ -1,3 +1,11 @@
+~ B116 (#Beta)
++ Added HiderESP Module (for Hypixel Prophunt)
++ Added WTap Module Delay Option
++ Added LegitVelocity Module
++ Added Spammer Module NightX Commands Support
+* Fixed HitBox Module Not Working
+* Fixed WTap Module When Not Sprinting
+
 ~ B115 (#7d01870)
 * Fixed TeleportEvent, EntityMovementEvent Not Working
 
