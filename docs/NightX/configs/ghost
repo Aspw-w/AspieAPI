@@ -390,6 +390,8 @@ GamePlay toggle false
 GamePlay bind NONE
 GhostMode toggle false
 GhostMode bind NONE
+HiderESP toggle false
+HiderESP bind NONE
 HighJump Height 5.0
 HighJump Mode Vanilla
 HighJump toggle false
@@ -500,6 +502,8 @@ LegitScaffold MaxTurnSpeed 80.0
 LegitScaffold MinTurnSpeed 40.0
 LegitScaffold toggle false
 LegitScaffold bind G
+LegitVelocity toggle false
+LegitVelocity bind NONE
 LiquidInteract toggle false
 LiquidInteract bind NONE
 LongJump Mode NCP
@@ -800,6 +804,7 @@ VisualAbilities Boss-Health false
 VisualAbilities toggle true
 VisualAbilities bind NONE
 WTap Mode FullPacket
+WTap Delay 4
 WTap toggle false
 WTap bind NONE
 WorldTime Time Static
