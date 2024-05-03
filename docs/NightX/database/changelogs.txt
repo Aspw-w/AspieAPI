@@ -4,6 +4,7 @@
 + Added LegitVelocity Module
 + Added Spammer Module NightX Commands Support
 + Added Scaffold, LegitScaffold Item Visual Spoofs
+* Fully Fixed Arm Renderer
 * Fixed HitBox Module Not Working
 * Fixed WTap Module When Not Sprinting
 * Fixed Animations CancelEquip Option Not Working When HeldItem is Null
