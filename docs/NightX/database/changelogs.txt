@@ -5,6 +5,7 @@
 + Added Spammer Module NightX Commands Support
 * Fixed HitBox Module Not Working
 * Fixed WTap Module When Not Sprinting
+* Fixed Animations CancelEquip Option Not Working When HeldItem is Null
 
 ~ B115 (#7d01870)
 * Fixed TeleportEvent, EntityMovementEvent Not Working
