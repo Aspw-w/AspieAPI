@@ -1,4 +1,4 @@
-~ B117 (#bfb5c4a)
+~ B117 (#8b74afe)
 + Added .route Command (Displays the route to the specified coords like Baritone)
 + Added AltManager Reload Button
 + Added InfiniteReach More Options
