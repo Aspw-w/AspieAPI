@@ -333,7 +333,7 @@ FastMine bind NONE
 FastPlace Speed 0
 FastPlace toggle false
 FastPlace bind NONE
-Flight Mode NCP
+Flight Mode Motion
 Flight Speed 1.0
 Flight V-Speed 0.8
 Flight SprintKey-SpeedBoost false
@@ -381,7 +381,7 @@ Flight BobbingAmount 0.1
 Flight SprintKey-TimerBoost false
 Flight SprintKey-TimerAmount 1.4
 Flight toggle false
-Flight bind F
+Flight bind NONE
 FullBright toggle true
 FullBright bind NONE
 GamePlay Server Hypixel
@@ -555,7 +555,7 @@ NoFall Hypixel-Mode Default
 NoFall Matrix-Mode 6.6.3
 NoFall MotionSpeed -0.01
 NoFall Void-Check true
-NoFall toggle true
+NoFall toggle false
 NoFall bind NONE
 NoHurtCam toggle false
 NoHurtCam bind NONE
