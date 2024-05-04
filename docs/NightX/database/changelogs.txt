@@ -1,6 +1,11 @@
 ~ B117 (#unreleased)
++ Added .route Command (Displays the route to the specified coords like Baritone)
 + Added AltManager Reload Button
++ Added InfiniteReach More Options
+* Improved Blink Color
 * Improved Freecam, ReverseFreecam Visuals
+* Improved .remoteview Command
+* Fixed Scaffold Counter Missing Position
 * Fixed Freecam Invalid Packets
 * Fixed KillAuraRecode AntiBlink Option Not Working
 * Fixed Sometimes Missing Last Server IP Address
