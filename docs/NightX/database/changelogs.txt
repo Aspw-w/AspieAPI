@@ -1,4 +1,8 @@
 ~ B117 (#unreleased)
++ Added AltManager Reload Button
+* Improved Freecam, ReverseFreecam Visuals
+* Fixed Freecam Invalid Packets
+* Fixed KillAuraRecode AntiBlink Option Not Working
 * Fixed Sometimes Missing Last Server IP Address
 
 ~ B116 (#f1c383d)
