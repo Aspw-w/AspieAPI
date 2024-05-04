@@ -401,6 +401,9 @@ HitBox toggle false
 HitBox bind NONE
 InfiniteDurability toggle false
 InfiniteDurability bind NONE
+InfiniteReach Attack true
+InfiniteReach Break true
+InfiniteReach Place true
 InfiniteReach toggle false
 InfiniteReach bind NONE
 InvManager MaxDelay 76
