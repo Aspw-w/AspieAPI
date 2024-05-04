@@ -505,7 +505,7 @@ LegitScaffold MaxTurnSpeed 80.0
 LegitScaffold MinTurnSpeed 40.0
 LegitScaffold toggle false
 LegitScaffold bind G
-LegitVelocity toggle false
+LegitVelocity toggle true
 LegitVelocity bind NONE
 LiquidInteract toggle false
 LiquidInteract bind NONE

@@ -150,7 +150,7 @@ AutoTool toggle true
 AutoTool bind NONE
 BackTrack ResetOnVelocity true
 BackTrack ResetOnLagging true
-BackTrack toggle false
+BackTrack toggle true
 BackTrack bind NONE
 Blink Pulse false
 Blink C0FCancel true
@@ -483,10 +483,10 @@ KillAura LimitedMultiTargets 6
 KillAura toggle false
 KillAura bind NONE
 KillAuraRecode Cooldown-Check false
-KillAuraRecode MaxCPS 12
-KillAuraRecode MinCPS 10
-KillAuraRecode MaxTurnSpeed 80.0
-KillAuraRecode MinTurnSpeed 40.0
+KillAuraRecode MaxCPS 20
+KillAuraRecode MinCPS 15
+KillAuraRecode MaxTurnSpeed 122.88461
+KillAuraRecode MinTurnSpeed 84.80769
 KillAuraRecode Fov 180.0
 KillAuraRecode ModifiedReach false
 KillAuraRecode Range 7.0
@@ -559,7 +559,7 @@ NoFall toggle false
 NoFall bind NONE
 NoHurtCam toggle false
 NoHurtCam bind NONE
-NoJumpDelay toggle true
+NoJumpDelay toggle false
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
 NoMouseIntersect toggle false
@@ -733,7 +733,7 @@ Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent false
+Sprint Silent true
 Sprint toggle true
 Sprint bind NONE
 Stealer MaxDelay 128
