@@ -1,3 +1,8 @@
+~ B118 (#unreleased)
+* Improved Scaffold AutoJumpMode HypixelKeepY (Same as Dogs Client!!!)
+* Improved Rotations
+* Fixed Other Players Cape Memory Leak
+
 ~ B117 (#7177d9f)
 + Added .route Command (Displays the route to the specified coords like Baritone)
 + Added AltManager Reload Button
