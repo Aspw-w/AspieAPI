@@ -1,3 +1,6 @@
+~ B119 (#45826cc)
+* Fixed Crashes when Scaffolding
+
 ~ B118 (#2862191)
 - Removed Disabler Mode Grim (Not Working)
 * Improved Scaffold AutoJumpMode HypixelKeepY (Same as Dogs Client!!!) and Visuals
