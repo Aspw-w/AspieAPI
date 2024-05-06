@@ -1,4 +1,4 @@
-~ B118 (#unreleased)
+~ B118 (#2862191)
 - Removed Disabler Mode Grim (Not Working)
 * Improved Scaffold AutoJumpMode HypixelKeepY (Same as Dogs Client!!!) and Visuals
 * Improved Rotations

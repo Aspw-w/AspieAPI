@@ -225,7 +225,6 @@ Disabler Silent-Accept false
 Disabler ShotBow false
 Disabler Funcraft-Staff false
 Disabler BlockDrop false
-Disabler Grim false
 Disabler Hycraft false
 Disabler Inventory-Spoof false
 Disabler Jump false
@@ -282,10 +281,6 @@ Disabler Verus-FlagDelay 40
 Disabler Verus-AntiFlight true
 Disabler Verus-FakeInput true
 Disabler Verus-ValidPosition true
-Disabler ChestStealer true
-Disabler PlaceBlock true
-Disabler C0B true
-Disabler C0F true
 Disabler Waiting-Display Top
 Disabler PingSpoof true
 Disabler Delay 400
@@ -419,7 +414,6 @@ InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
 InvManager ItemDelay 400
-InvManager OnlySwordWeapon false
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
 InvManager NBTArmorPriority 0.0

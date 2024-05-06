@@ -225,7 +225,6 @@ Disabler Silent-Accept false
 Disabler ShotBow false
 Disabler Funcraft-Staff false
 Disabler BlockDrop false
-Disabler Grim false
 Disabler Hycraft false
 Disabler Inventory-Spoof false
 Disabler Jump false
@@ -282,10 +281,6 @@ Disabler Verus-FlagDelay 40
 Disabler Verus-AntiFlight true
 Disabler Verus-FakeInput true
 Disabler Verus-ValidPosition true
-Disabler ChestStealer true
-Disabler PlaceBlock true
-Disabler C0B true
-Disabler C0F true
 Disabler Waiting-Display Top
 Disabler PingSpoof true
 Disabler Delay 400
@@ -406,8 +401,8 @@ InfiniteReach Break true
 InfiniteReach Place true
 InfiniteReach toggle false
 InfiniteReach bind NONE
-InvManager MaxDelay 76
-InvManager MinDelay 19
+InvManager MaxDelay 105
+InvManager MinDelay 67
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -419,7 +414,6 @@ InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
 InvManager ItemDelay 192
-InvManager OnlySwordWeapon false
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
 InvManager NBTArmorPriority 0.0
@@ -733,11 +727,11 @@ Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent true
+Sprint Silent false
 Sprint toggle true
 Sprint bind NONE
-Stealer MaxDelay 73
-Stealer MinDelay 19
+Stealer MaxDelay 100
+Stealer MinDelay 65
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false
@@ -748,8 +742,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 50
-Stealer AutoCloseMinDelay 50
+Stealer AutoCloseMaxDelay 84
+Stealer AutoCloseMinDelay 84
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
