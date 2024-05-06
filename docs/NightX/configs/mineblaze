@@ -487,7 +487,7 @@ KillAuraRecode Range 7.0
 KillAuraRecode AntiBlink false
 KillAuraRecode VisualAutoBlock true
 KillAuraRecode RealAutoBlock true
-KillAuraRecode AutoBlockTick 3
+KillAuraRecode AutoBlockTick 5
 KillAuraRecode toggle false
 KillAuraRecode bind E
 LegitScaffold AutoSneak true
@@ -651,7 +651,7 @@ Scaffold Place-Condition Always
 Scaffold RotationMode Smooth
 Scaffold WaitRotationMode Normal
 Scaffold AutoJumpMode Breezily
-Scaffold Breezily-Delay 5
+Scaffold Breezily-Delay 6
 Scaffold Timer 1.0
 Scaffold PlaceableDelay true
 Scaffold MaxDelay 9
