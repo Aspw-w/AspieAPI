@@ -5,6 +5,7 @@
 * Improved Performance
 * Improved InvManager Module
 * Fixed Other Players Cape Memory Leak
+* Cleanup Codes
 
 ~ B117 (#7177d9f)
 + Added .route Command (Displays the route to the specified coords like Baritone)
