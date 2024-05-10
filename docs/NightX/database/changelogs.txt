@@ -1,6 +1,7 @@
 ~ B120 (#097f69f)
 + Added Interface Module C-Font, CrazyRotation-Renderer Option
 * Improved GuiButton Renderer
+* Improved MainMenu
 * Improved Performance
 * Fixed ViaForgePlus Compatible
 
