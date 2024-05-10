@@ -1,3 +1,9 @@
+~ B120 (#097f69f)
++ Added Interface Module C-Font, CrazyRotation-Renderer Option
+* Improved GuiButton Renderer
+* Improved Performance
+* Fixed ViaForgePlus Compatible
+
 ~ B119 (#45826cc)
 * Fixed Crashes when Scaffolding
 
