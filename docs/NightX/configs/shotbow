@@ -452,7 +452,7 @@ KillAura Attack-Range 4.5
 KillAura RotationMode Standard
 KillAura MaxTurnSpeed 129.8077
 KillAura MinTurnSpeed 90.0
-KillAura Angle-Tick 1
+KillAura Angle-Tick 12
 KillAura Reset-Delay 0
 KillAura 1.9+Attack false
 KillAura NoInvAttack false
@@ -553,7 +553,7 @@ NoFall toggle false
 NoFall bind NONE
 NoHurtCam toggle true
 NoHurtCam bind NONE
-NoJumpDelay toggle true
+NoJumpDelay toggle false
 NoJumpDelay bind NONE
 NoMouseIntersect Block 54
 NoMouseIntersect toggle false
@@ -727,7 +727,7 @@ Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
 Spider bind NONE
-Sprint Silent true
+Sprint Silent false
 Sprint toggle true
 Sprint bind NONE
 Stealer MaxDelay 80
