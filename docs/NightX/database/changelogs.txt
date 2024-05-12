@@ -1,6 +1,5 @@
 ~ B121 (#beta)
 + Added Debug Module (Predicts and displays the player's direction of movement)
-+ Added TargetStrafe ToggleMode Option
 * Fixed SilentSneak Mode Legit Not Working
 
 ~ B120 (#097f69f)
