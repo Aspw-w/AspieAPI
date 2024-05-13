@@ -1,6 +1,15 @@
 ~ B121 (#beta)
 + Added Debug Module (Predicts and displays the player's direction of movement)
++ Added New BlocksMC Fly Bypasses
+- Removed Scaffold Desync Option (Not Bypassing Everywhere)
+- Removed FastEat Mode BlocksMC (Patched)
+* Improved ClientSide Commands
+* Improved PacketTracker Module
+* Improved Blink Visuals
+* Improved .route Command Performance
+* Fixed VerusHop Speed Auto Banning
 * Fixed SilentSneak Mode Legit Not Working
+* Fixed Microsoft Login Gui Crashes
 
 ~ B120 (#097f69f)
 + Added Interface Module C-Font, CrazyRotation-Renderer Option
