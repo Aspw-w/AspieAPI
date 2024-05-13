@@ -219,6 +219,9 @@ Criticals toggle true
 Criticals bind NONE
 Dead toggle false
 Dead bind NONE
+Debug Range 100
+Debug toggle false
+Debug bind NONE
 Disabler Basic false
 Disabler Vanilla-Desync false
 Disabler Silent-Accept false
@@ -671,8 +674,6 @@ Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
 Scaffold AutoDisable-Speed false
-Scaffold Desync false
-Scaffold DesyncDelay 400
 Scaffold MaxTurnSpeed 180.0
 Scaffold MinTurnSpeed 180.0
 Scaffold toggle false
