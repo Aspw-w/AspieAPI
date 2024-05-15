@@ -694,7 +694,7 @@ Speed NCP-Mode BHop
 Speed AAC-Mode 4Hop
 Speed Watchdog-Mode Custom
 Speed Server-Mode YPort
-Speed Verus-Mode LowHop
+Speed Verus-Mode Hop
 Speed Vulcan-Mode YPort
 Speed Matrix-Mode Hop
 Speed UseTimer false
