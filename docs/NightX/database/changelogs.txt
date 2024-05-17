@@ -1,3 +1,14 @@
+~ B122 (#3e99adc)
++ Added New MainMenu (Gif Background)
++ Added Interface Module ItemVisualSpoof, VisualCancelSwing, Option (for AutoTool, Scaffold, LegitScaffold)
++ Added WTap Mode Legit
++ Added Speed Mode Sparky
+- Removed SilentSneak Debug Messages
+- Removed Scaffold SprintMode Silent (Probably Not Working)
+* Improved AutoTool Module
+* Improved Change Logs Loader
+* Fixed KeepSprint Module Spam Sprinting
+
 ~ B121 (#61d3994)
 + Added Debug Module (Predicts and displays the player's direction of movement)
 + Added New BlocksMC Fly Bypasses
@@ -23,7 +34,7 @@
 
 ~ B118 (#2862191)
 - Removed Disabler Mode Grim (Not Working)
-* Improved Scaffold AutoJumpMode HypixelKeepY (Same as Dogs Client!!!) and Visuals
+* Improved Scaffold AutoJumpMode HypixelKeepY and Visuals
 * Improved Rotations
 * Improved Performance
 * Improved InvManager Module
