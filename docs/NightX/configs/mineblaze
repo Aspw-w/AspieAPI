@@ -53,7 +53,7 @@ AntiBots AlwaysInRadiusBlocks 20.0
 AntiBots AlwaysInRadiusRemove false
 AntiBots AlwaysInRadiusWithTicksCheck false
 AntiBots Debug false
-AntiBots toggle true
+AntiBots toggle false
 AntiBots bind NONE
 AntiFireBall MaxTurnSpeed 120.0
 AntiFireBall MinTurnSpeed 80.0
@@ -480,10 +480,10 @@ KillAura LimitedMultiTargets 6
 KillAura toggle false
 KillAura bind NONE
 KillAuraRecode Cooldown-Check false
-KillAuraRecode MaxCPS 18
-KillAuraRecode MinCPS 13
-KillAuraRecode MaxTurnSpeed 133.26924
-KillAuraRecode MinTurnSpeed 58.846153
+KillAuraRecode MaxCPS 17
+KillAuraRecode MinCPS 11
+KillAuraRecode MaxTurnSpeed 112.5
+KillAuraRecode MinTurnSpeed 48.46154
 KillAuraRecode Fov 180.0
 KillAuraRecode ModifiedReach false
 KillAuraRecode Range 7.0
@@ -801,9 +801,9 @@ VisualAbilities Scoreboard false
 VisualAbilities Boss-Health false
 VisualAbilities toggle true
 VisualAbilities bind NONE
-WTap Mode FullPacket
-WTap Delay 4
-WTap toggle false
+WTap Mode Legit
+WTap Delay 2
+WTap toggle true
 WTap bind NONE
 WorldTime Time Static
 WorldTime CycleSpeed 30
