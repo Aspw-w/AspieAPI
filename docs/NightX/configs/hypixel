@@ -633,10 +633,8 @@ SafeWalk toggle false
 SafeWalk bind NONE
 Scaffold EnableTower false
 Scaffold TowerWhen Moving
-Scaffold TowerMode Watchdog
+Scaffold TowerMode ConstantMotion
 Scaffold TowerTimer 1.0
-Scaffold WatchdogTowerBoost true
-Scaffold Watchdog-TowerSpeed 2.12
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
 Scaffold StableMotion 0.41982
@@ -673,7 +671,7 @@ Scaffold AutoSneak false
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
-Scaffold AutoDisable-Speed false
+Scaffold AutoDisable-Speed true
 Scaffold MaxTurnSpeed 150.57692
 Scaffold MinTurnSpeed 124.61539
 Scaffold toggle false
