@@ -73,14 +73,14 @@ AntiTeams ArmorColor false
 AntiTeams ArmorIndex 3
 AntiTeams toggle false
 AntiTeams bind NONE
-AntiVelocity Mode Minemen
+AntiVelocity Mode SmoothReverse
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
 AntiVelocity Explosion-Mode None
 AntiVelocity AAC5.2.0-Attack-Only true
 AntiVelocity Chance 100.0
-AntiVelocity ReverseStrength 1.0
-AntiVelocity SmoothReverseStrength 0.05
+AntiVelocity ReverseStrength 0.6971154
+AntiVelocity SmoothReverseStrength 0.060769226
 AntiVelocity AACPushXZReducer 2.0
 AntiVelocity AACPushYReducer true
 AntiVelocity LegitStrafe false
