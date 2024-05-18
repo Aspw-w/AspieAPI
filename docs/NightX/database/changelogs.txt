@@ -1,3 +1,15 @@
+~ B123 (#882429d)
++ Added New Minemen Velocity Bypasses
++ Added KillAuraRecode & AutoHeal Compatibility
++ Added InvManager DiamondShovel & SoulSand Check
+- Removed ThunderNotifier Module (It had so many lag spikes)
+- Removed AltManager JavaCheck (for ViaForgePlus's 1.21+ Next Update)
+* Improved HypixelKeepY Scaffold Speed
+* Fixed Bad Packets when Scaffold was Disabled
+* Fixed XRay Module Doesn't Render Chest
+* Fixed Scaffold Item Switch fails too much
+* Renamed Some Visual Module Options
+
 ~ B122 (#3e99adc)
 + Added New MainMenu (Gif Background)
 + Added Interface Module ItemVisualSpoof, VisualCancelSwing, Option (for AutoTool, Scaffold, LegitScaffold)
