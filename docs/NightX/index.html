@@ -106,9 +106,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         var verJson = [];
+        var token = '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';
 
         function addVer(sha, time, msg, artifact_id, branch) {
-            if(branch == "main") {
+            if (branch == "main") {
                 branch = "stable";
             }
             verJson.push({
@@ -128,23 +129,37 @@
             verJson.sort(function(a, b) {
                 return b.time.getTime() - a.time.getTime();
             }).forEach(element => {
-                $("#tbody").append(`<tr>` + 
+                $("#tbody").append(`<tr>` +
                     `<td><a href="${element.link}" style="color:#FFFFFF"> ${element.sha.substring(0, 7)}</a></td>` +
                     `<td>${element.time.toLocaleString()}</td>` +
-                    `<td>${element.msg}</td>` + 
-                    `<td><a href="${element.download_link}" style="color:#7289da">Download</a></td>` + 
+                    `<td>${element.msg}</td>` +
+                    `<td><a href="${element.download_link}" style="color:#7289da">Download</a></td>` +
                 `</tr>`);
             });
         }
 
-        $.get("https://api.github.com/repos/Aspw-w/NightX-Client/actions/runs", function(data, status) {
-            data.workflow_runs.forEach(element => {
-                addVer(element.head_commit.id, element.head_commit.timestamp, element.head_commit.message, element.id, element.head_branch);
-            });
+        $.ajax({
+            url: "https://api.github.com/repos/Aspw-w/NightX-Client/actions/runs",
+            method: "GET",
+            headers: {
+                'Authorization': 'token ' + token
+            },
+            success: function(data) {
+                data.workflow_runs.forEach(element => {
+                    addVer(element.head_commit.id, element.head_commit.timestamp, element.head_commit.message, element.id, element.head_branch);
+                });
+            },
+            error: function(err) {
+                console.error(err);
+            }
         });
 
         async function fetchReleases() {
-            const response = await fetch('https://api.github.com/repos/Aspw-w/NightX-Client/releases');
+            const response = await fetch('https://api.github.com/repos/Aspw-w/NightX-Client/releases', {
+                headers: {
+                    'Authorization': 'token ' + token
+                }
+            });
             const data = await response.json();
             const releasesSection = document.getElementById('releases-section');
 
