@@ -136,7 +136,7 @@ AutoHeal Delay-Soup 150
 AutoHeal OpenInv-Soup false
 AutoHeal SimulateInventory-Soup true
 AutoHeal Bowl-Soup Drop
-AutoHeal toggle false
+AutoHeal toggle true
 AutoHeal bind NONE
 AutoParkour toggle false
 AutoParkour bind NONE
@@ -481,7 +481,7 @@ KillAura toggle false
 KillAura bind NONE
 KillAuraRecode Cooldown-Check false
 KillAuraRecode MaxCPS 20
-KillAuraRecode MinCPS 18
+KillAuraRecode MinCPS 19
 KillAuraRecode MaxTurnSpeed 160.96155
 KillAuraRecode MinTurnSpeed 121.15385
 KillAuraRecode Fov 180.0

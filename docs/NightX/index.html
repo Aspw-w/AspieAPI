@@ -1,11 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <title>NightX Client</title>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightX Client</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2b2b2b;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #5c2b5c;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            color: #fff;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .section {
+            width: 45%;
+            background-color: #3a3a3a;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .section h2 {
+            border-bottom: 2px solid #5c2b5c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        .artifact, .release {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #4a4a4a;
+            border-radius: 5px;
+        }
+        .artifact a, .release a {
+            color: #9a4cae;
+            text-decoration: none;
+        }
+        .artifact a:hover, .release a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #424549;
+            color: white;
+        }
+        th, td {
+            padding: 20px;
+        }
+        tr {
+            border-bottom: 1px solid #36393e;
+        }
+        th {
+            background-color: #282b30;
+        }
+        .space {
+            height: 50px;
+        }
+        .mdui-spinner {
+            color: #424549;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <h1>Download Here</h1>
-  <h1>https://github.com/Aspw-w/NightX-Client</h1>
+    <header>
+        NightX Client - A Minecraft Forge Mixin-Based Hacked Client
+    </header>
+    <main>
+        <div class="section" id="artifacts-section">
+            <h2>Artifacts</h2>
+            <div class="space" id="loading-badge">
+                <div class="mdui-spinner"></div>
+            </div>
+            <table class="mdui-table mdui-hoverable">
+                <thead>
+                    <tr>
+                        <th>Commit</th>
+                        <th>Date</th>
+                        <th>Change log</th>
+                        <th>Downloads</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+        <div class="section" id="releases-section">
+            <h2>Releases</h2>
+            <!-- Releases will be dynamically inserted here -->
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var verJson = [];
+
+        function addVer(sha, time, msg, artifact_id, branch) {
+            if(branch == "main") {
+                branch = "stable";
+            }
+            verJson.push({
+                link: "https://github.com/Aspw-w/NightX-Client/commit/" + sha,
+                sha: sha,
+                time: new Date(time),
+                msg: msg,
+                download_link: "https://nightly.link/Aspw-w/NightX-Client/actions/runs/" + artifact_id + "/nightx.zip",
+                branch: branch
+            });
+            refresh();
+        }
+
+        function refresh() {
+            $('#loading-badge').html("");
+            $("#tbody").html("");
+            verJson.sort(function(a, b) {
+                return b.time.getTime() - a.time.getTime();
+            }).forEach(element => {
+                $("#tbody").append(`<tr>` + 
+                    `<td><a href="${element.link}" style="color:#FFFFFF"> ${element.sha.substring(0, 7)}</a></td>` +
+                    `<td>${element.time.toLocaleString()}</td>` +
+                    `<td>${element.msg}</td>` + 
+                    `<td><a href="${element.download_link}" style="color:#7289da">Download</a></td>` + 
+                `</tr>`);
+            });
+        }
+
+        $.get("https://api.github.com/repos/Aspw-w/NightX-Client/actions/runs", function(data, status) {
+            data.workflow_runs.forEach(element => {
+                addVer(element.head_commit.id, element.head_commit.timestamp, element.head_commit.message, element.id, element.head_branch);
+            });
+        });
+
+        async function fetchReleases() {
+            const response = await fetch('https://api.github.com/repos/Aspw-w/NightX-Client/releases');
+            const data = await response.json();
+            const releasesSection = document.getElementById('releases-section');
+
+            data.forEach(release => {
+                const releaseDiv = document.createElement('div');
+                releaseDiv.className = 'release';
+                releaseDiv.innerHTML = `
+                    <strong>${release.name}</strong> (${new Date(release.published_at).toLocaleDateString()})<br>
+                    <a href="${release.html_url}" target="_blank">View Release</a>
+                `;
+                releasesSection.appendChild(releaseDiv);
+            });
+        }
+
+        fetchReleases();
+    </script>
 </body>
 </html>

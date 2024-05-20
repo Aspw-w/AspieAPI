@@ -71,7 +71,7 @@ AntiTeams Color false
 AntiTeams GommeSW false
 AntiTeams ArmorColor false
 AntiTeams ArmorIndex 3
-AntiTeams toggle true
+AntiTeams toggle false
 AntiTeams bind NONE
 AntiVelocity Mode Cancel
 AntiVelocity Horizontal 0.0
