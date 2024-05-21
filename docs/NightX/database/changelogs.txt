@@ -2,6 +2,7 @@
 + Added Nuker Swing Option
 + Added NightX Donate Cape (You can get from $soon)
 * Fixed Minecraft Invent Mouse Option Not Working
+* Fixed Debug Module Performance
 
 ~ B123 (#882429d)
 + Added New Minemen Velocity Bypasses
