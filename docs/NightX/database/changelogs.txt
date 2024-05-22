@@ -1,3 +1,6 @@
+~ B125 (#Beta)
+* Fixed Reload Donor Cape API Duplicating
+
 ~ B124 (#b48025f)
 + Added Nuker Swing Option
 + Added NightX Donate Cape (You can donate from https://nightx-donations.mysellix.io)
