@@ -71,7 +71,7 @@
         .mdui-spinner {
             color: #424549;
         }
-        .donate-button {
+        .donate-button, .download-count-button {
             display: block;
             width: 150px;
             margin: 20px auto;
@@ -83,8 +83,14 @@
             border-radius: 5px;
             font-size: 1.2em;
         }
-        .donate-button:hover {
+        .donate-button:hover, .download-count-button:hover {
             background-color: #7d3f7d;
+        }
+        #download-count {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -106,7 +112,7 @@
                         <th>Commit</th>
                         <th>Date</th>
                         <th>ChangeLogs</th>
-                        <th>Downloads</th>
+                        <th>Builds</th>
                     </tr>
                 </thead>
                 <tbody id="tbody">
@@ -116,6 +122,8 @@
         <div class="section" id="releases-section">
             <h2>Releases</h2>
             <!-- Releases will be dynamically inserted here -->
+            <a href="#" class="download-count-button" id="download-count-button">Get Total Downloads</a>
+            <div id="download-count">Total Downloads: Waiting...</div>
         </div>
     </main>
 
@@ -177,6 +185,32 @@
                 releasesSection.appendChild(releaseDiv);
             });
         }
+
+        async function fetchDownloadCount() {
+            let totalDownloads = 0;
+            let page = 1;
+            let hasMorePages = true;
+
+            while (hasMorePages) {
+                const response = await fetch(`https://api.github.com/repos/Aspw-w/NightX-Client/releases?per_page=100&page=${page}&client_id=${clientId}&client_secret=${clientSecret}`);
+                const data = await response.json();
+
+                if (data.length > 0) {
+                    for (const release of data) {
+                        for (const asset of release.assets) {
+                            totalDownloads += asset.download_count;
+                        }
+                    }
+                    page++;
+                } else {
+                    hasMorePages = false;
+                }
+            }
+
+            document.getElementById('download-count').innerText = `Total Downloads: ${totalDownloads}`;
+        }
+
+        document.getElementById('download-count-button').addEventListener('click', fetchDownloadCount);
 
         fetchReleases();
     </script>
