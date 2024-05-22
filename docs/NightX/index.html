@@ -49,6 +49,7 @@
         .artifact a, .release a {
             color: #9a4cae;
             text-decoration: none;
+            float: left; /* Added to float left */
         }
         .artifact a:hover, .release a:hover {
             text-decoration: underline;
@@ -62,6 +63,8 @@
         th, td {
             padding: 10px;
             text-align: left;
+            word-wrap: break-word; /* Added for word wrap */
+            white-space: normal; /* Added for normal white space */
         }
         tr {
             border-bottom: 1px solid #36393e;
@@ -126,8 +129,8 @@
                     <tr>
                         <th>Commit</th>
                         <th>Date</th>
-                        <th>ChangeLogs</th>
                         <th>Builds</th>
+                        <th>ChangeLogs</th>
                     </tr>
                 </thead>
                 <tbody id="tbody">
@@ -171,8 +174,8 @@
                 $("#tbody").append(`<tr>` + 
                     `<td><a href="${element.link}" style="color:#FFFFFF"> ${element.sha.substring(0, 7)}</a></td>` +
                     `<td>${element.time.toLocaleString()}</td>` +
-                    `<td>${element.msg}</td>` + 
                     `<td><a href="${element.download_link}" style="color:#7289da">Download</a></td>` + 
+                    `<td>${element.msg}</td>` + 
                 `</tr>`);
             });
         }
@@ -244,7 +247,7 @@
                 }
             }
 
-            document.getElementById('download-count').innerText = `Total Downloads: ${totalDownloads}`;
+            document.getElementById('download-count').innerText = `Total Downloads: ${totalDownloads} (Thanks for 50k+ Downloads!)`;
         }
 
         fetchDownloadCount();
