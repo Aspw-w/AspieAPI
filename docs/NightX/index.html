@@ -31,6 +31,8 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin-bottom: 20px;
+            max-height: 1000px; /* Adjusted for more space */
+            overflow-y: auto;
         }
         .section h2 {
             border-bottom: 2px solid #5c2b5c;
@@ -73,7 +75,7 @@
         .mdui-spinner {
             color: #424549;
         }
-        .donate-button, .download-count-button {
+        .donate-button {
             display: block;
             width: 100%;
             max-width: 150px;
@@ -86,7 +88,7 @@
             border-radius: 5px;
             font-size: 1.2em;
         }
-        .donate-button:hover, .download-count-button:hover {
+        .donate-button:hover {
             background-color: #7d3f7d;
         }
         #download-count {
@@ -111,10 +113,11 @@
     <header>
         NightX Client - A Minecraft Forge Mixin-Based Hacked Client
     </header>
+    <div id="download-count">Total Downloads: Waiting...</div>
+    <a href="https://nightx-donations.mysellix.io" class="donate-button">Donate Now!</a>
     <main>
         <div class="section" id="artifacts-section">
             <h2>Beta</h2>
-            <a href="https://nightx-donations.mysellix.io" class="donate-button">Donate Now!</a>
             <div class="space" id="loading-badge">
                 <div class="mdui-spinner"></div>
             </div>
@@ -134,8 +137,6 @@
         <div class="section" id="releases-section">
             <h2>Releases</h2>
             <!-- Releases will be dynamically inserted here -->
-            <a href="#" class="download-count-button" id="download-count-button">Get Total Downloads</a>
-            <div id="download-count">Total Downloads: Waiting...</div>
         </div>
     </main>
 
@@ -176,26 +177,50 @@
             });
         }
 
-        $.get(`https://api.github.com/repos/Aspw-w/NightX-Client/actions/runs?client_id=${clientId}&client_secret=${clientSecret}`, function(data, status) {
-            data.workflow_runs.forEach(element => {
-                addVer(element.head_commit.id, element.head_commit.timestamp, element.head_commit.message, element.id, element.head_branch);
-            });
-        });
+        async function fetchWorkflowRuns() {
+            let page = 1;
+            let hasMorePages = true;
+
+            while (hasMorePages) {
+                const response = await fetch(`https://api.github.com/repos/Aspw-w/NightX-Client/actions/runs?per_page=100&page=${page}&client_id=${clientId}&client_secret=${clientSecret}`);
+                const data = await response.json();
+
+                if (data.workflow_runs.length > 0) {
+                    data.workflow_runs.forEach(element => {
+                        addVer(element.head_commit.id, element.head_commit.timestamp, element.head_commit.message, element.id, element.head_branch);
+                    });
+                    page++;
+                } else {
+                    hasMorePages = false;
+                }
+            }
+        }
 
         async function fetchReleases() {
-            const response = await fetch(`https://api.github.com/repos/Aspw-w/NightX-Client/releases?client_id=${clientId}&client_secret=${clientSecret}`);
-            const data = await response.json();
             const releasesSection = document.getElementById('releases-section');
+            let page = 1;
+            let hasMorePages = true;
 
-            data.forEach(release => {
-                const releaseDiv = document.createElement('div');
-                releaseDiv.className = 'release';
-                releaseDiv.innerHTML = `
-                    <strong>${release.name}</strong> (${new Date(release.published_at).toLocaleDateString()})<br>
-                    <a href="${release.html_url}" target="_blank">View Release</a>
-                `;
-                releasesSection.appendChild(releaseDiv);
-            });
+            while (hasMorePages) {
+                const response = await fetch(`https://api.github.com/repos/Aspw-w/NightX-Client/releases?per_page=100&page=${page}&client_id=${clientId}&client_secret=${clientSecret}`);
+                const data = await response.json();
+
+                if (data.length > 0) {
+                    data.forEach(release => {
+                        const releaseDiv = document.createElement('div');
+                        releaseDiv.className = 'release';
+                        releaseDiv.innerHTML = `
+                            <strong>${release.name}</strong> (${new Date(release.published_at).toLocaleDateString()})<br>
+                            <a href="${release.html_url}" target="_blank">View Release</a><br>
+                            <span>Download Count: ${release.assets.reduce((acc, asset) => acc + asset.download_count, 0)}</span>
+                        `;
+                        releasesSection.appendChild(releaseDiv);
+                    });
+                    page++;
+                } else {
+                    hasMorePages = false;
+                }
+            }
         }
 
         async function fetchDownloadCount() {
@@ -222,8 +247,8 @@
             document.getElementById('download-count').innerText = `Total Downloads: ${totalDownloads}`;
         }
 
-        document.getElementById('download-count-button').addEventListener('click', fetchDownloadCount);
-
+        fetchDownloadCount();
+        fetchWorkflowRuns();
         fetchReleases();
     </script>
 </body>
