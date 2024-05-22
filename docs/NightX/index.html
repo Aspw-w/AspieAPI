@@ -21,15 +21,16 @@
         }
         main {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             padding: 20px;
         }
         .section {
-            width: 45%;
+            width: 100%;
             background-color: #3a3a3a;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
         }
         .section h2 {
             border-bottom: 2px solid #5c2b5c;
@@ -57,7 +58,8 @@
             color: white;
         }
         th, td {
-            padding: 20px;
+            padding: 10px;
+            text-align: left;
         }
         tr {
             border-bottom: 1px solid #36393e;
@@ -73,7 +75,8 @@
         }
         .donate-button, .download-count-button {
             display: block;
-            width: 150px;
+            width: 100%;
+            max-width: 150px;
             margin: 20px auto;
             padding: 10px;
             background-color: #5c2b5c;
@@ -91,6 +94,15 @@
             margin-top: 10px;
             margin-bottom: 10px;
             font-size: 1.2em;
+        }
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .section {
+                width: 45%;
+            }
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
