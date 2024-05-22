@@ -1,5 +1,6 @@
 ~ B125 (#Beta)
 * Fixed Reload Donor Cape API Duplicating
+* Fixed Animations Item-Size Option Changes Every Player Items
 
 ~ B124 (#b48025f)
 + Added Nuker Swing Option
