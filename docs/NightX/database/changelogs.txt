@@ -1,4 +1,6 @@
 ~ B125 (#Beta)
++ Added Animations Mode Yamato (Mitiwo-Akero)
+* Improved Animations Mode Leaked
 * Fixed Reload Donor Cape API Duplicating
 * Fixed Animations Item-Size Option Changes Every Player Items
 
