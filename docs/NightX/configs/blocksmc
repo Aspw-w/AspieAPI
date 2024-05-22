@@ -583,6 +583,7 @@ NoSlow bind NONE
 Nuker Radius 4.2
 Nuker ThroughWalls true
 Nuker Priority Distance
+Nuker Swing Packet
 Nuker Rotations true
 Nuker Layer false
 Nuker HitDelay 0
