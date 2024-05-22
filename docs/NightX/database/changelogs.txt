@@ -1,8 +1,12 @@
 ~ B124 (#beta)
 + Added Nuker Swing Option
-+ Added NightX Donate Cape (You can get from $soon)
++ Added NightX Donate Cape (You can donate from https://nightx-donations.mysellix.io)
++ Added Animations Item-Size Option ThirdPerson Support
+* Improved MainMenu
+* Recoded HypixelKeepY Scaffold
 * Fixed Minecraft Invent Mouse Option Not Working
 * Fixed Debug Module Performance
+* Cleanup Codes
 
 ~ B123 (#882429d)
 + Added New Minemen Velocity Bypasses
