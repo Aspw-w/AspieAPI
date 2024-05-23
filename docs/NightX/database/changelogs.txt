@@ -1,6 +1,7 @@
-~ B125 (#Beta)
+~ B125 (#95d3d94)
++ Added Better MainMenu
 + Added Animations Mode Yamato (Mitiwo-Akero)
-* Improved Animations Mode Leaked
+* Improved Animations Mode Leaked, Slash, AstolfoSpin
 * Fixed Reload Donor Cape API Duplicating
 * Fixed Animations Item-Size Option Changes Every Player Items
 

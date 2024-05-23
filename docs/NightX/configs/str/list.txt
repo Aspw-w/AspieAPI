@@ -8,7 +8,6 @@ cubecraft
 default
 gamster
 ghost
-herobrine
 hypixel
 lunaria
 mineblaze
