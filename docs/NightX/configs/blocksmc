@@ -405,7 +405,7 @@ InfiniteReach Place true
 InfiniteReach toggle false
 InfiniteReach bind NONE
 InvManager MaxDelay 48
-InvManager MinDelay 28
+InvManager MinDelay 19
 InvManager InvOpen false
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -416,7 +416,7 @@ InvManager Sort true
 InvManager ThrowGarbage true
 InvManager Armor true
 InvManager NoCombat false
-InvManager ItemDelay 288
+InvManager ItemDelay 432
 InvManager NBTGoal NONE
 InvManager NBTItemNotGarbage true
 InvManager NBTArmorPriority 0.0
@@ -636,6 +636,8 @@ Scaffold EnableTower false
 Scaffold TowerWhen Always
 Scaffold TowerMode BlocksMC
 Scaffold TowerTimer 1.0
+Scaffold WatchdogTowerBoost true
+Scaffold Watchdog-TowerSpeed 1.7
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
 Scaffold StableMotion 0.41982
@@ -730,8 +732,8 @@ Spider bind NONE
 Sprint Silent true
 Sprint toggle true
 Sprint bind NONE
-Stealer MaxDelay 18
-Stealer MinDelay 12
+Stealer MaxDelay 15
+Stealer MinDelay 7
 Stealer TakeRandomized true
 Stealer OnlyItems false
 Stealer NoCompass false

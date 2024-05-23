@@ -636,6 +636,8 @@ Scaffold EnableTower false
 Scaffold TowerWhen Always
 Scaffold TowerMode ConstantMotion
 Scaffold TowerTimer 1.0
+Scaffold WatchdogTowerBoost true
+Scaffold Watchdog-TowerSpeed 1.7
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
 Scaffold StableMotion 0.41982

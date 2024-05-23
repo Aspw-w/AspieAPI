@@ -405,7 +405,7 @@ InfiniteReach Place true
 InfiniteReach toggle false
 InfiniteReach bind NONE
 InvManager MaxDelay 105
-InvManager MinDelay 67
+InvManager MinDelay 76
 InvManager InvOpen true
 InvManager SimulateInventory false
 InvManager SimulateInventoryDelay 0
@@ -453,8 +453,8 @@ KillAura MinCPS 8
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.0
 KillAura RotationMode Standard
-KillAura MaxTurnSpeed 150.57692
-KillAura MinTurnSpeed 124.61539
+KillAura MaxTurnSpeed 126.34615
+KillAura MinTurnSpeed 81.34615
 KillAura Angle-Tick 1
 KillAura Reset-Delay 10
 KillAura 1.9+Attack false
@@ -480,10 +480,10 @@ KillAura LimitedMultiTargets 6
 KillAura toggle false
 KillAura bind NONE
 KillAuraRecode Cooldown-Check false
-KillAuraRecode MaxCPS 14
-KillAuraRecode MinCPS 9
-KillAuraRecode MaxTurnSpeed 150.57692
-KillAuraRecode MinTurnSpeed 124.61539
+KillAuraRecode MaxCPS 13
+KillAuraRecode MinCPS 8
+KillAuraRecode MaxTurnSpeed 126.34615
+KillAuraRecode MinTurnSpeed 81.34615
 KillAuraRecode Fov 180.0
 KillAuraRecode ModifiedReach false
 KillAuraRecode Range 7.0
@@ -636,6 +636,8 @@ Scaffold EnableTower false
 Scaffold TowerWhen Moving
 Scaffold TowerMode ConstantMotion
 Scaffold TowerTimer 1.0
+Scaffold WatchdogTowerBoost true
+Scaffold Watchdog-TowerSpeed 1.7
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
 Scaffold StableMotion 0.41982
@@ -672,9 +674,9 @@ Scaffold AutoSneak false
 Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
-Scaffold AutoDisable-Speed true
-Scaffold MaxTurnSpeed 150.57692
-Scaffold MinTurnSpeed 124.61539
+Scaffold AutoDisable-Speed false
+Scaffold MaxTurnSpeed 166.15385
+Scaffold MinTurnSpeed 131.53845
 Scaffold toggle false
 Scaffold bind G
 SilentRotations CustomStrafing true
@@ -742,8 +744,8 @@ Stealer AutoClose true
 Stealer SilentMode false
 Stealer Silent-ShowString true
 Stealer Silent-StillDisplay true
-Stealer AutoCloseMaxDelay 84
-Stealer AutoCloseMinDelay 84
+Stealer AutoCloseMaxDelay 103
+Stealer AutoCloseMinDelay 103
 Stealer CloseOnFull true
 Stealer ChestTitle false
 Stealer toggle false
