@@ -1,5 +1,5 @@
 ~ B127 (#1a6fc05)
-* Reduced File Size (About 50%) (If loading screen is not shown, delete .minecraft/config folder)
+* Reduced File Size (About 50%) (If crashing, please delete .minecraft/config folder)
 
 ~ B126 (#20c412d)
 + Brought Back B122's HypixelKeepY Scaffold
