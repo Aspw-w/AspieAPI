@@ -1,3 +1,6 @@
+~ B127 (#1a6fc05)
+* Reduced File Size (About 50%)
+
 ~ B126 (#20c412d)
 + Brought Back B122's HypixelKeepY Scaffold
 
