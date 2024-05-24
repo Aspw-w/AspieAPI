@@ -1,4 +1,5 @@
 ~ B127 (#1a6fc05)
+* Fixed Performance, Micro Stutters
 * Reduced File Size (About 50%) (If crashing, please delete .minecraft/config folder)
 
 ~ B126 (#20c412d)
