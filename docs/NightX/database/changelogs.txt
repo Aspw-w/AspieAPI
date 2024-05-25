@@ -1,7 +1,7 @@
 ~ B128 (#72db3ec)
 + Added BlinkAntiVoid Module (Works on Hypixel)
 + Added AltManager DirectLogin Button
-* Improved Animations Mode Spin
+* Improved Animations Mode AstolfoSpin
 * Fixed Debug Module Detectable on Servers
 * Fixed Crashing when No Internet Connection
 * Renamed Debug to PredictRender
