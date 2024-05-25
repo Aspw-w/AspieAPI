@@ -5,6 +5,7 @@
 * Fixed Debug Module Detectable on Servers
 * Fixed Crashing when No Internet Connection
 * Renamed Debug to PredictRender
+* More Reduced File Size
 
 ~ B127 (#1a6fc05)
 * Fixed Performance, Micro Stutters
