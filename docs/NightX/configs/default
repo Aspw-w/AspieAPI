@@ -157,6 +157,8 @@ Blink C0FCancel false
 Blink PulseDelay 400
 Blink toggle false
 Blink bind NONE
+BlinkAntiVoid toggle false
+BlinkAntiVoid bind NONE
 BowAura ThroughWalls false
 BowAura toggle false
 BowAura bind NONE
@@ -219,9 +221,6 @@ Criticals toggle false
 Criticals bind NONE
 Dead toggle false
 Dead bind NONE
-Debug Range 100
-Debug toggle false
-Debug bind NONE
 Disabler Basic false
 Disabler Vanilla-Desync false
 Disabler Silent-Accept false
