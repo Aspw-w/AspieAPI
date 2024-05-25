@@ -157,7 +157,7 @@ Blink C0FCancel true
 Blink PulseDelay 400
 Blink toggle false
 Blink bind F
-BlinkAntiVoid toggle false
+BlinkAntiVoid toggle true
 BlinkAntiVoid bind NONE
 BowAura ThroughWalls false
 BowAura toggle false
