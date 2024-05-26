@@ -90,13 +90,13 @@ AntiVelocity AACStrafeValue false
 AntiVelocity Phase-Offset 0.05
 AntiVelocity toggle true
 AntiVelocity bind NONE
-AntiVoid SetBack-Mode FlyFlag
+AntiVoid SetBack-Mode Blink
 AntiVoid Detect-Method Collision
 AntiVoid Predict-CheckFallDistance 255
 AntiVoid Predict-MaxFindRange 60
 AntiVoid Illegal-Dupe 1
 AntiVoid Max-FallDistance 8.0
-AntiVoid toggle false
+AntiVoid toggle true
 AntiVoid bind NONE
 AutoAuth Double-Register true
 AutoAuth Delay 5000
