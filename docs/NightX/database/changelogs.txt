@@ -1,3 +1,17 @@
+~ B129 (#146a270)
++ Added InvMove Mode Hypixel
++ Added AutoHeal Visual Spoof Support
++ Added ESP HealthBar Renderer
++ Added Interface Module So Many Options
++ Added Inventory Gui Left Up Settings
+- Removed Blur, Shadows (for onboard graphics)
+* Improved BlinkAntiVoid Module & Mixed to AntiVoid Module
+* Improved Scaffold, LegitScaffold Module Renders
+* Improved MotionBlur Module Performance
+* Improved Animations Mode AstolfoSpin
+* Improved TargetESP Module
+* Fixed AutoTool Module Bugs
+
 ~ B128 (#72db3ec)
 + Added BlinkAntiVoid Module (Works on Hypixel)
 + Added AltManager DirectLogin Button
