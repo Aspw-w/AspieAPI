@@ -90,13 +90,12 @@ AntiVelocity AACStrafeValue false
 AntiVelocity Phase-Offset 0.05
 AntiVelocity toggle true
 AntiVelocity bind NONE
-AntiVoid Detect-Method Collision
 AntiVoid SetBack-Mode FlyFlag
+AntiVoid Detect-Method Collision
 AntiVoid Predict-CheckFallDistance 255
 AntiVoid Predict-MaxFindRange 60
 AntiVoid Illegal-Dupe 1
-AntiVoid Max-FallDistance 5.0
-AntiVoid AutoScaffold false
+AntiVoid Max-FallDistance 8.0
 AntiVoid toggle false
 AntiVoid bind NONE
 AutoAuth Double-Register true
@@ -157,8 +156,6 @@ Blink C0FCancel false
 Blink PulseDelay 400
 Blink toggle false
 Blink bind NONE
-BlinkAntiVoid toggle false
-BlinkAntiVoid bind NONE
 BowAura ThroughWalls false
 BowAura toggle false
 BowAura bind NONE
@@ -300,7 +297,7 @@ Disabler toggle false
 Disabler bind NONE
 DrinkingAlert toggle true
 DrinkingAlert bind NONE
-ESP Local-Player false
+ESP Local-Player true
 ESP toggle true
 ESP bind NONE
 FakeLag Mode All
@@ -719,7 +716,7 @@ Speed Velocity-Speed 0.673077
 Speed Velocity-BHop true
 Speed LagCheck true
 Speed WorldCheck true
-Speed NoBob false
+Speed NoBob true
 Speed toggle false
 Speed bind X
 Spider Mode Simple
