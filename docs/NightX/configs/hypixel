@@ -671,8 +671,8 @@ Scaffold SpeedKeepY true
 Scaffold SafeWalk false
 Scaffold AirSafe false
 Scaffold AutoDisable-Speed false
-Scaffold MaxTurnSpeed 148.84615
-Scaffold MinTurnSpeed 105.57692
+Scaffold MaxTurnSpeed 126.34615
+Scaffold MinTurnSpeed 81.34615
 Scaffold toggle false
 Scaffold bind G
 SilentRotations CustomStrafing true
