@@ -3,66 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        #messageForm {
-            margin-bottom: 20px;
-        }
-        #messages {
-            border: 1px solid #ddd;
-            padding: 10px;
-            max-width: 400px;
-            margin-top: 20px;
-        }
-    </style>
-    <script>
-        async function sendMessage() {
-            const messageInput = document.getElementById("message");
-            const message = messageInput.value;
-            messageInput.value = "";
+    <title>Chat Application</title>
+</head>
+<body>
+    <h1>Chat Application</h1>
+    <form id="sendMessageForm">
+        <input type="text" id="messageInput" placeholder="Enter your message">
+        <button type="submit">Send</button>
+    </form>
+    <div id="messages"></div>
 
-            const response = await fetch("https://aspw-w.github.io/NightX/chat/send", {
-                method: "POST",
+    <script>
+        const sendUrl = '/chat/send';
+        const receiveUrl = '/chat/receive';
+
+        document.getElementById('sendMessageForm').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const messageContent = document.getElementById('messageInput').value;
+
+            const response = await fetch(sendUrl, {
+                method: 'POST',
                 headers: {
-                    "Content-Type": "application/json"
+                    'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ content: message })
+                body: JSON.stringify({ content: messageContent })
             });
 
             if (response.ok) {
-                alert("Message sent successfully!");
+                document.getElementById('messageInput').value = '';
+                fetchMessages();
             } else {
-                alert("Failed to send message.");
+                console.error('Failed to send message');
             }
-        }
-
-        async function receiveMessages() {
-            const response = await fetch("https://aspw-w.github.io/NightX/chat/receive");
-            if (response.ok) {
-                const messages = await response.json();
-                const messagesContainer = document.getElementById("messages");
-                messagesContainer.innerHTML = messages.map(msg => `<div>${msg.content}</div>`).join("");
-            } else {
-                alert("Failed to receive messages.");
-            }
-        }
-
-        document.addEventListener("DOMContentLoaded", () => {
-            document.getElementById("sendButton").addEventListener("click", sendMessage);
-            receiveMessages();
-            setInterval(receiveMessages, 5000);  // Poll for new messages every 5 seconds
         });
+
+        async function fetchMessages() {
+            const response = await fetch(receiveUrl);
+            if (response.ok) {
+                const message = await response.json();
+                const messagesDiv = document.getElementById('messages');
+                const messageElement = document.createElement('div');
+                messageElement.textContent = message.content;
+                messagesDiv.appendChild(messageElement);
+            } else {
+                console.error('Failed to receive message');
+            }
+        }
+
+        setInterval(fetchMessages, 5000);
     </script>
-</head>
-<body>
-    <h1>Chat</h1>
-    <div id="messageForm">
-        <input type="text" id="message" placeholder="Enter your message" />
-        <button id="sendButton">Send</button>
-    </div>
-    <div id="messages"></div>
 </body>
 </html>
