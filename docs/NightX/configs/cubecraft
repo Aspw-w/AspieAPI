@@ -449,9 +449,9 @@ KillAura MinCPS 10
 KillAura Target-Range 4.5
 KillAura Attack-Range 3.0
 KillAura RotationMode Standard
-KillAura MaxTurnSpeed 110.76923
-KillAura MinTurnSpeed 81.34615
-KillAura Angle-Tick 8
+KillAura MaxTurnSpeed 154.03845
+KillAura MinTurnSpeed 105.57692
+KillAura Angle-Tick 1
 KillAura Reset-Delay 0
 KillAura 1.9+Attack true
 KillAura NoInvAttack false
@@ -474,11 +474,11 @@ KillAura Fov 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
 KillAura toggle false
-KillAura bind NONE
+KillAura bind E
 KillAuraRecode Cooldown-Check true
 KillAuraRecode MaxCPS 12
 KillAuraRecode MinCPS 10
-KillAuraRecode MaxTurnSpeed 140.1923
+KillAuraRecode MaxTurnSpeed 121.15385
 KillAuraRecode MinTurnSpeed 86.53846
 KillAuraRecode Fov 180.0
 KillAuraRecode ModifiedReach false
@@ -488,7 +488,7 @@ KillAuraRecode VisualAutoBlock true
 KillAuraRecode RealAutoBlock false
 KillAuraRecode AutoBlockTick 5
 KillAuraRecode toggle false
-KillAuraRecode bind E
+KillAuraRecode bind NONE
 LegitScaffold AutoSneak true
 LegitScaffold AutoSwitch true
 LegitScaffold SafeWalk true
@@ -574,7 +574,7 @@ NoSlow PacketTrigger PostRelease
 NoSlow Debug false
 NoSlow Soulsand true
 NoSlow LiquidPush true
-NoSlow toggle false
+NoSlow toggle true
 NoSlow bind NONE
 Nuker Radius 4.2
 Nuker ThroughWalls true
@@ -767,7 +767,7 @@ TargetStrafe KeyMode Jump
 TargetStrafe SafeWalk true
 TargetStrafe Behind false
 TargetStrafe ThirdPerson false
-TargetStrafe toggle false
+TargetStrafe toggle true
 TargetStrafe bind NONE
 Timer Speed 2.0
 Timer OnMove false
@@ -800,7 +800,7 @@ VisualAbilities toggle true
 VisualAbilities bind NONE
 WTap Mode FakeSneak
 WTap Delay 4
-WTap toggle true
+WTap toggle false
 WTap bind NONE
 WorldTime Time Static
 WorldTime CycleSpeed 30
