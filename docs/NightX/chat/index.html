@@ -14,8 +14,8 @@
     <div id="messages"></div>
 
     <script>
-        const sendUrl = '/chat/send';
-        const receiveUrl = '/chat/receive';
+        const sendUrl = 'https://your-backend-url/chat/send'; // ここをバックエンドのURLに変更
+        const receiveUrl = 'https://your-backend-url/chat/receive'; // ここをバックエンドのURLに変更
 
         document.getElementById('sendMessageForm').addEventListener('submit', async (event) => {
             event.preventDefault();
