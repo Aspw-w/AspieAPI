@@ -3,34 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NightX Chat</title>
+    <title>Chat</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
         }
-        h1 {
-            font-size: 2em;
+        #messageForm {
             margin-bottom: 20px;
         }
-        a {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            text-decoration: none;
-            color: white;
-            background-color: #007BFF;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: #0056b3;
+        #messages {
+            border: 1px solid #ddd;
+            padding: 10px;
+            max-width: 400px;
+            margin-top: 20px;
         }
     </style>
+    <script>
+        async function sendMessage() {
+            const messageInput = document.getElementById("message");
+            const message = messageInput.value;
+            messageInput.value = "";
+
+            const response = await fetch("https://aspw-w.github.io/NightX/chat/send", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ content: message })
+            });
+
+            if (response.ok) {
+                alert("Message sent successfully!");
+            } else {
+                alert("Failed to send message.");
+            }
+        }
+
+        async function receiveMessages() {
+            const response = await fetch("https://aspw-w.github.io/NightX/chat/receive");
+            if (response.ok) {
+                const messages = await response.json();
+                const messagesContainer = document.getElementById("messages");
+                messagesContainer.innerHTML = messages.map(msg => `<div>${msg.content}</div>`).join("");
+            } else {
+                alert("Failed to receive messages.");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("sendButton").addEventListener("click", sendMessage);
+            receiveMessages();
+            setInterval(receiveMessages, 5000);  // Poll for new messages every 5 seconds
+        });
+    </script>
 </head>
 <body>
-    <h1>Welcome to NightX Chat</h1>
-    <p>This is the homepage for the NightX Chat project. You can start chatting by clicking the link below:</p>
-    <a href="chat.html">Go to Chat</a>
+    <h1>Chat</h1>
+    <div id="messageForm">
+        <input type="text" id="message" placeholder="Enter your message" />
+        <button id="sendButton">Send</button>
+    </div>
+    <div id="messages"></div>
 </body>
 </html>
