@@ -1,3 +1,7 @@
+~ B130 (#0c8aedc)
++ Added Interface Module ScaffoldCounter, ScaffoldHighlight Option
+* Fixed Sometimes can't load API
+
 ~ B129 (#146a270)
 + Added InvMove Mode Hypixel
 + Added AutoHeal Visual Spoof Support
